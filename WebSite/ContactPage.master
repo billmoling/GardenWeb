@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ContactPage.master.cs" Inherits="ContactPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="Css/Home_c.css" rel="Stylesheet" type="text/css" />
+    <link href="Css/Header.css" rel="Stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head_c" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Css/Footer.css" rel="Stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="header">
+            <div id="logo">
+                <img alt="" src="Images/logo.jpg" />
+            </div>
+            <div id="nav">
+                <div class="help">
+                    <ul>
+                        <li><a href="#">REMENBER ME</a></li>
+                        <li><a href="#">HELP</a></li>
+                    </ul>
+                </div>
+                <div class="nav_bar">
+                    <ul>
+                        <li><a href="Home.aspx">HOME</a></li>
+                        <li><a href="New.aspx">ALL NEW</a></li>
+                        <li><a href="Promotion.aspx">PROMOTION</a></li>
+                        <li><a href="Products.aspx?ptypeid=all">PRODUCTS</a></li>
+                        <li class="last"><a href="#">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="search_bar">
+                    <input id="t1" type="text" />
+                    <input id="btn" type="submit" value="Search" />
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div id="content2">
+                <asp:ContentPlaceHolder ID="ContentPlaceMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="footer">
+            <span class="left">©Copyright 2011 <a>NATURALGARDEN.com</a> All Right Reserved.</span>
+            <span class="right">Powered by <a>iLazysoft</a></span>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
+

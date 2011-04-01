@@ -1,0 +1,24 @@
+D:\MS Project\Code Central\第三方组件\NET\ckeditor_net_3.5.2\CKEditor.NET\bin\Debug\CKEditor.NET.dll
+D:\MS Project\Code Central\第三方组件\NET\ckeditor_net_3.5.2\CKEditor.NET\bin\Debug\CKEditor.NET.pdb
+D:\MS Project\Code Central\第三方组件\NET\ckeditor_net_3.5.2\CKEditor.NET\obj\Debug\ResolveAssemblyReference.cache
+D:\MS Project\Code Central\第三方组件\NET\ckeditor_net_3.5.2\CKEditor.NET\obj\Debug\CKEditor.NET.dll
+D:\MS Project\Code Central\第三方组件\NET\ckeditor_net_3.5.2\CKEditor.NET\obj\Debug\CKEditor.NET.pdb
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\NaturalGardenWeb\CKEditor.NET\bin\Debug\CKEditor.NET.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\NaturalGardenWeb\CKEditor.NET\bin\Debug\CKEditor.NET.pdb
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\NaturalGardenWeb\CKEditor.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\NaturalGardenWeb\CKEditor.NET\obj\Debug\CKEditor.NET.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\NaturalGardenWeb\CKEditor.NET\obj\Debug\CKEditor.NET.pdb
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\NaturalGardenWeb\WebSite\admin\CKEditor\CKEditor.NET.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\NaturalGardenWeb\WebSite\admin\CKEditor\CKEditor.NET.pdb
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\NaturalGardenWeb\WebSite\bin\CKEditor.NET.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\NaturalGardenWeb\WebSite\bin\CKEditor.NET.pdb
+D:\Workspace\iLazysoftTasks\NaturalGarden\NaturalGardenWeb\WebSite\bin\CKEditor.NET.dll
+D:\Workspace\iLazysoftTasks\NaturalGarden\NaturalGardenWeb\WebSite\bin\CKEditor.NET.pdb
+D:\Workspace\iLazysoftTasks\NaturalGarden\NaturalGardenWeb\CKEditor.NET\obj\Debug\ResolveAssemblyReference.cache
+D:\Workspace\iLazysoftTasks\NaturalGarden\NaturalGardenWeb\CKEditor.NET\obj\Debug\CKEditor.NET.dll
+D:\Workspace\iLazysoftTasks\NaturalGarden\NaturalGardenWeb\CKEditor.NET\obj\Debug\CKEditor.NET.pdb
+D:\Workspace\iLazysoftTasks\NaturalGarden\v1\NaturalGardenWeb\WebSite\bin\CKEditor.NET.dll
+D:\Workspace\iLazysoftTasks\NaturalGarden\v1\NaturalGardenWeb\WebSite\bin\CKEditor.NET.pdb
+D:\Workspace\iLazysoftTasks\NaturalGarden\v1\NaturalGardenWeb\CKEditor.NET\obj\Debug\ResolveAssemblyReference.cache
+D:\Workspace\iLazysoftTasks\NaturalGarden\v1\NaturalGardenWeb\CKEditor.NET\obj\Debug\CKEditor.NET.dll
+D:\Workspace\iLazysoftTasks\NaturalGarden\v1\NaturalGardenWeb\CKEditor.NET\obj\Debug\CKEditor.NET.pdb

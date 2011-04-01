@@ -1,0 +1,36 @@
+﻿body {
+}
+
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+#contact,p
+{
+    text-align:left;
+    padding-left:20px;
+    padding-top:20px;
+    padding-right:20px;
+}
+
+img.contact_left_1
+{
+    height:200px;
+}
+
+.main-p img
+{
+    height:150px;
+}
+
+p.left-p
+{
+    float:left;
+}
+
+p.bottom-p 
+{
+    text-align:right;
+}
