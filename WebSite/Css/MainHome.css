@@ -53,3 +53,10 @@ div#main
 div.bottom-main
 {
 }
+
+a.a_title 
+{
+    font-size:22px;
+    color:#e46c13;
+    text-decoration:none;
+}

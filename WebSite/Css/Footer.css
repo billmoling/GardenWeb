@@ -7,6 +7,7 @@
 
 body 
 {
+    font-family:verdana, Arial, 微软雅黑;
 }
 
 div#footer
@@ -40,20 +41,15 @@ div.footer_middle
 {
     float:left;
     position:relative;
+    margin-left:100px;
 }
 
 div.footer_middle a
 {
-    color:Black;
-    text-decoration:none;
-    font-size:large;
+    color:#FFF;
+    text-decoration:underline;
     line-height:48px;
-    padding-left:3px;
-}
-
-div.footer_middle a:hover
-{
-    color:Green;
-    font-size:larger;
-    font-weight:bold;
+    font-size:small;
+    padding-left:4px;
+    
 }

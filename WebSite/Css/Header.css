@@ -74,15 +74,16 @@ div.nav_bar
 .nav_bar ul
 {
     background-image:url(../images/nav_bar.jpg);
-    height:37px;
+    height:43px;
+    width:746px;
 }
 
 .nav_bar li
 {
     margin-top:10px;
     text-align:center;
-    border-right:1px dashed white;
     width:140px;
+    height:26px;
 }
 
 .nav_bar li a
@@ -104,8 +105,7 @@ li.last
 
 .nav_bar a:hover
 {
-    color:Green;
-    font-size:larger;
+    color:#B3EE3A;
     font-weight:bold;
 }
 

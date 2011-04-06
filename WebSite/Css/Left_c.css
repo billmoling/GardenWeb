@@ -1,4 +1,6 @@
-﻿body {
+﻿body 
+{
+    font-family:verdana, Arial, 微软雅黑;
 }
 
 *
@@ -7,30 +9,91 @@
     padding:0px;
 }
 
-#contact,p
+#middle-left
 {
-    text-align:left;
-    padding-left:20px;
-    padding-top:20px;
-    padding-right:20px;
+    padding:10px 0px 0px 10px;
+    float:left;
+    width:240px;
 }
 
-img.contact_left_1
+.title span
 {
-    height:200px;
+    font-family:Arial;
+    font-size:15px;
+    color:#000;
 }
 
-.main-p img
+#middle-left .line img
 {
-    height:150px;
-}
-
-p.left-p
-{
+    width:200px;
+    overflow:hidden;
     float:left;
 }
 
-p.bottom-p 
+#middle-left p
+{
+    text-align:left;
+    font-size:14px;
+    word-spacing:normal;
+    width:200px;
+    padding-left:10px;
+}
+
+#left-bottom img
+{
+    width:180px;
+}
+
+#middle-main
+{
+    padding-top:10px;
+    margin-left:200px;
+}
+
+#main p
+{
+    text-align:left;
+    font-size:12px;
+    width:760px;
+    word-spacing:normal;
+    padding-bottom:4px;
+}
+
+#main p img
+{
+    width:220px;
+    height:114px;
+}
+
+#middle-main div.title,#main
+{
+    padding-left:20px;
+}
+
+div.main-bottom
 {
     text-align:right;
+    padding-right:150px;
+}
+
+.main-bottom img
+{
+    height:30px;
+    width:30px;
+    margin-bottom:-10px;
+}
+
+.main-bottom a
+{
+    text-decoration:none;
+}
+
+.main-bottom a:hover
+{
+    text-decoration:underline;
+}
+
+div.main-bottom2
+{
+    padding-top:100px;
 }

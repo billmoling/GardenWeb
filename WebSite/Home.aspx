@@ -11,9 +11,10 @@
                 <table style="float:left;">
                     <tr>
                         <td>
-                           <img alt="" src="images/whatnew.jpg" />
+                            <img alt="" src="images/green.gif" />
                         </td>
                         <td>
+                            <a href="new.aspx" class="a_title">What's <b><i>New</i></b></a>
                         </td>
                     </tr>
                 </table>
@@ -59,7 +60,7 @@
                             <img alt="" src="images/green.gif" />
                         </td>
                         <td>
-                            <a>Sales Promotion</a>
+                            <a href="Promotion.aspx" class="a_title">Sales Promotion</a>
                         </td>
                     </tr>
                 </table>

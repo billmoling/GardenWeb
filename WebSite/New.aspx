@@ -11,9 +11,10 @@
                 <table style="float:left;">
                     <tr>
                         <td>
-                            <img alt="" src="images/whatnew.jpg" />
+                            <img alt="" src="images/green.gif" />
                         </td>
                         <td>
+                            <span>What's New</span>
                         </td>
                     </tr>
                 </table>

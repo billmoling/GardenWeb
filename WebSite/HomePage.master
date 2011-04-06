@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>China Jiangsu Int'l-Gardening</title>
     <link href="Css/Home.css" rel="Stylesheet" type="text/css" />
     <link href="Css/Header.css" rel="Stylesheet" type="text/css" />
     <link href="Css/Left.css" rel="Stylesheet" type="text/css" />
@@ -107,10 +107,10 @@
             <div id="footer">
                 <span class="left">©Copyright 2011 <a>NATURALGARDEN.com</a> All Right Reserved.</span>
                 <div class="footer_middle">
-                       <a href="Home.aspx">HOME</a><a href="#">/</a>
-                       <a href="New.aspx">ALL NEW</a><a href="#">/</a>
-                       <a href="Promotion.aspx">PROMOTION</a><a href="#">/</a>
-                       <a href="Products.aspx?ptypeid=all">PRODUCTS</a><a href="#">/</a>
+                       <a href="Home.aspx">HOME</a>
+                       <a href="New.aspx">ALL NEW</a>
+                       <a href="Promotion.aspx">PROMOTION</a>
+                       <a href="Products.aspx?ptypeid=all">PRODUCTS</a>
                        <a href="Contact.aspx">CONTACT US</a>
                 </div>
                 <span class="right">Powered by <a>iLazysoft</a></span>
