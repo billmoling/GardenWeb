@@ -22,3 +22,8 @@ D:\Workspace\iLazysoftTasks\NaturalGarden\v1\NaturalGardenWeb\WebSite\bin\CKEdit
 D:\Workspace\iLazysoftTasks\NaturalGarden\v1\NaturalGardenWeb\CKEditor.NET\obj\Debug\ResolveAssemblyReference.cache
 D:\Workspace\iLazysoftTasks\NaturalGarden\v1\NaturalGardenWeb\CKEditor.NET\obj\Debug\CKEditor.NET.dll
 D:\Workspace\iLazysoftTasks\NaturalGarden\v1\NaturalGardenWeb\CKEditor.NET\obj\Debug\CKEditor.NET.pdb
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\WebSite\bin\CKEditor.NET.dll
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\WebSite\bin\CKEditor.NET.pdb
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\CKEditor.NET\obj\Debug\ResolveAssemblyReference.cache
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\CKEditor.NET\obj\Debug\CKEditor.NET.dll
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\CKEditor.NET\obj\Debug\CKEditor.NET.pdb

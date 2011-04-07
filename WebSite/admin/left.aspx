@@ -142,6 +142,15 @@
                                             <a href="addaType.aspx" target="mainframe">Manage Category</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td width="20%">
+                                            <img height="10" src="../images/admin/bullet.jpg" width="9">
+                                        </td>
+                                        <td height="25" style="width: 80%">
+                                            <a href="SideBarUpdate.aspx" target="mainframe">
+                                            Manage SideBar</a>
+                                        </td>
+                                    </tr>
                                 </table>
                             </span>
                             <table cellspacing="0" cellpadding="0" width="157" border="0">
