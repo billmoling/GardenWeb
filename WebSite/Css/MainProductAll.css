@@ -26,14 +26,14 @@ div#main
 
 .link-main
 {
-    height:435px;
+    height:455px;
 }
 
 .link-main a
 {
     display:block;
     width:175px;
-    height:145px;
+    height:150px;
     overflow:hidden;
 }
 

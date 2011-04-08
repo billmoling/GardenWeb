@@ -91,7 +91,7 @@
                 <div id="content2">
                     <div id="middle-left">
                         <div id="slide">
-                            <iframe id="leftframe" name="leftframe" src="SideBar.htm" 
+                            <iframe id="leftframe" name="leftframe" src="SideBar/SideBar.htm" 
                                     marginheight="0" marginwidth="0" frameborder="0" 
                                     scrolling="no" style="height: 534px; 
                                     width: 220px; z-index: 2; margin:0px;padding:0px;"></iframe>

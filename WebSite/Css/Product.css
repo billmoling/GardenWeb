@@ -13,3 +13,17 @@ table.t-left
     margin-left:0px;
     margin-top:0px;
 }
+
+.lb_title
+{
+    font-size:larger;
+    font-weight:bold;
+    color:Blue;
+    font-family:verdana, Arial, 微软雅黑;
+}
+
+.lb_content
+{
+    text-align:left;
+    float:left;
+}

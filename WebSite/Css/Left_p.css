@@ -16,10 +16,10 @@ div#slide
 {
     margin-left:10px;
     width:220px;
-    height:534px;
+    height:594px;
     margin-top:10px;
     overflow:hidden;
-    background-image:url(../images/left-background.jpg);
+    background-image:url(../images/left-background-long.jpg);
 }
 
 div.title

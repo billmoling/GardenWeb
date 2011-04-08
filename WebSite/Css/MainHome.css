@@ -38,10 +38,16 @@ div#main
     width:164px;
 }
 
-.link-main span
+.link-main div
 {
     font-size:15px;
+    width:164px;
+    word-break:break-all; 
+    white-space:normal; 
+    word-wrap:break-word;
     font-family:@微软雅黑;
+    height:36px;
+    overflow:hidden;
 }
 
 .link-main span:hover
@@ -52,6 +58,7 @@ div#main
 
 div.bottom-main
 {
+    margin-top:30px;
 }
 
 a.a_title 

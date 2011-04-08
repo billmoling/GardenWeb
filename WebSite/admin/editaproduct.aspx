@@ -97,7 +97,7 @@
                 </tr>
                 <tr>
                     <td align="left">
-                        Code Item:
+                        Item Code:
                     </td>
                     <td align="left">
                         <input type="text" size="30" maxlength="100" id="txtCodeItem" runat="server" name="CodeItem"/>

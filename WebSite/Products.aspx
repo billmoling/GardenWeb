@@ -64,7 +64,7 @@
                                         </td>
                                     </tr>
                                     </tr>
-                                    <td height="20px" align="center">
+                                    <td height="30px" align="center">
                                         <%# Eval("productName") %>
                                     </td>
                                     </tr>

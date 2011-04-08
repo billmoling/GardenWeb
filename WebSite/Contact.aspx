@@ -77,10 +77,10 @@
                 <img alt="" src="images/3.jpg" />
                 <img alt="" src="images/4.jpg" />
             </p>
-            <p>
+            <p style="margin-left:30px;">
                 Our company has passed ISO9001, ISO14001, OHSAS18001 and BSCI. All of our products have passed the SGS PAHs free, REACH registration. CE or ROHS will be provided if necessary. 
             </p>
-            <p>
+            <p style="margin-left:30px;">
                  16 years, we are still growing!
             </p>
         </div>

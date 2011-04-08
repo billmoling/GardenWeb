@@ -14,7 +14,8 @@
 		<form id="Form1" method="post" runat="server">
 			<asp:Panel id="Panel1" runat="server" Width="500px">
 				<INPUT id="upload" type="file" size="1" name="upload" runat="server" style="width:200px;">
-				<asp:Button id="btnUpload" Text="上传" Runat="server" Font-Size="12px" onclick="btnUpload_Click"></asp:Button>
+				<asp:Button id="btnUpload" Text="Update" Runat="server" Font-Size="12px" 
+                        onclick="btnUpload_Click"></asp:Button>
 			</asp:Panel>
 			<asp:Panel id="Panel2" runat="server">
 				<asp:Label id="Label1" runat="server"></asp:Label>

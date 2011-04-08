@@ -9,6 +9,11 @@
     padding:0px;
 }
 
+#main
+{
+    height:600px;
+}
+
 #middle-left
 {
     padding:10px 0px 0px 10px;
@@ -61,8 +66,8 @@
 
 #main p img
 {
-    width:220px;
-    height:114px;
+    height:134px;
+    margin-left:60px;
 }
 
 #middle-main div.title,#main

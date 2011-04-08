@@ -28,18 +28,18 @@ div#container
 
 div#content
 {
-    background-image:url(../images/content-background-1.jpg);
+    background-image:url(../images/content-background-1-long.jpg);
     padding-top:10px;
     width:1024px;
-    height:568px;
+    height:628px;
 }
 
 div#content2
 {
-    background-image:url(../images/content-background-2.jpg);
+    background-image:url(../images/content-background-2-long.jpg);
     margin-left:15px;
     width:994px;
-    height:550px;
+    height:610px;
 }
 
 
