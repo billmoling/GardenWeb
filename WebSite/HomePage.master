@@ -15,7 +15,7 @@
         function verifyInput() {
             var input = document.getElementById('txt_key');
 
-            if (input.value == '' || input.value == 'Custom Search by item code, product name, category etc.') {
+            if (input.value == '' || input.value == 'Customize Search by item code, product name, category etc.') {
                 alert('Please input the keyword.');
                 return false;
             }

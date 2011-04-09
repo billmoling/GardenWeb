@@ -85,7 +85,7 @@
                 <td valign="middle" align="center">
                     <div id="summary">
                         <p class="title">
-                            Wellcome:<span id="showLoginer" runat="server">Fill Login Name</span>
+                            Welcome:<span id="showLoginer" runat="server">Fill Login Name</span>
                         </p>
                         <p class="info">
                             <img src="../images/admin/btn_refresh.gif" />

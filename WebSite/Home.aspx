@@ -35,7 +35,7 @@
                 </table>
             </div>
             <script language="javascript" type="text/javascript">
-                var speed = 20//速度数值越大速度越慢
+                var speed = 15//速度数值越大速度越慢
                 var demo2 = document.getElementById("demo2");
                 var demo = document.getElementById("demo");
                 var demo1 = document.getElementById("demo1");
