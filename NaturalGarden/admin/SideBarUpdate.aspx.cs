@@ -60,7 +60,7 @@ public partial class SideBarUpdate : System.Web.UI.Page
             LogEntry entry=new LogEntry ();
             entry.Severity=System.Diagnostics.TraceEventType.Error;
             entry.Message=string.Format("Exception:{0}, Inner Exception:{1}", ex.Message, ex.InnerException.Message);
-            entry.Categories.Add(Category.General);
+            entry.Categories.Add(Category.Exception);
             entry.Priority=Priority.High;
             logwrite.Write(entry);
             throw;

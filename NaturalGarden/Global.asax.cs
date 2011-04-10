@@ -3,6 +3,8 @@ using System.Collections;
 using System.ComponentModel;
 using System.Web;
 using System.Web.SessionState;
+using Microsoft.Practices.EnterpriseLibrary.Logging;
+using Microsoft.Practices.EnterpriseLibrary.Common.Configuration;
 
 namespace NewsProject 
 {
@@ -11,10 +13,12 @@ namespace NewsProject
 	/// </summary>
 	public class Global : System.Web.HttpApplication
 	{
+
 		/// <summary>
 		/// 必需的设计器变量。
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
+        private LogWriter logwrite = EnterpriseLibraryContainer.Current.GetInstance<LogWriter>();
 
 		public Global()
 		{
@@ -58,6 +62,15 @@ namespace NewsProject
 
 		protected void Application_End(Object sender, EventArgs e)
 		{
+            HttpUnhandledException unhandleException = this.Server.GetLastError() as HttpUnhandledException;
+            logwrite.Write(
+                string.Format("Exception:{0}, Inner Exception:{1}", unhandleException.Message, unhandleException.InnerException.Message),
+                Category.Exception,
+                Priority.High
+                );
+            Response.Redirect("Home.aspx");
+            Server.ClearError();
+            Response.End();
 
 		}
 			
