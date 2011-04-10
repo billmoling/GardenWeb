@@ -1,0 +1,56 @@
+﻿body 
+{
+    font-family:verdana, Arial, 微软雅黑;
+    width:845px;
+    margin:0px;
+    padding:0px;
+}
+
+.rightbody_bg 
+{
+    background-image:url(../../images/admin/right_bg.jpg);
+    width:846px;
+    height:526px;
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+}
+
+.tableBorder
+{
+    width:846px;
+    height:510px;
+}
+
+
+.content_title 
+{
+    width:848px;
+    line-height:33px;
+    margin-top:0px;
+}
+
+div.content_title h2 
+{
+    font-size:20px;
+    color:#fff;
+    margin:0px;
+    text-align:center;
+}
+
+.content_main
+{
+    width:848px;
+    text-align:center;
+}
+
+.color_red
+{
+    color:#7f100d;
+}
+
+#products tr td
+{
+    font-size:12px;
+    font-family:verdana, Arial, 微软雅黑;
+}

@@ -1,0 +1,389 @@
+/* 公共 — 开始 */
+body
+{
+	font-size: 9pt;
+	font-family: 宋体;
+	margin: 0px 0px 0px 1px;
+}
+/*-文本-*/
+.wcenter
+{
+	text-align: center;
+}
+.wleft
+{
+	text-align: left;
+}
+.wright
+{
+	text-align: right;
+}
+/*-浮动-*/
+.lfd
+{
+	float: left;
+}
+.nfd
+{
+	float: none;
+}
+.rfd
+{
+	float: right;
+}
+/*-颜色-*/
+.c_ff0000
+{
+	color: #ff0000;
+}
+/*--*/
+/*--*/
+/* 公共 — 结束 */
+
+
+
+#ALL
+{
+	/*background-color: #9ebef5;*/
+	background-color:#e9f3f8;
+	width: 100%;
+	height: 100%;
+}
+.alertbgc
+{
+	/*background-color: #9ebef5;*/
+	background-color:#f2f8fb;
+}
+.xlk
+{
+	font-size: 9pt;
+	font-family: 宋体;
+}
+.xlk_f0
+{
+	margin-top: 2px;
+	margin-left: 3px;
+}
+.xlk_f1
+{
+	margin-top: 2px;
+	margin-left: 1px;
+}
+.∪o
+{
+	margin-left: 2px;
+	margin-top: 1px;
+}
+#BRS
+{
+	width: 1px;
+	height: 26px;
+}
+.BRS
+{
+	width: 1px;
+	height: 27px;
+}
+.EditK
+{
+	width: 100%;
+	margin-top: 1px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border-right: #330033 1px solid;
+	border-top: #330033 1px solid;
+	border-left: #330033 1px solid;
+	border-bottom: #330033 1px solid;
+}
+#Edit_txt
+{
+
+}
+#Code_txt
+{
+	color: #006600;
+	background-color: #ffffcc;
+	font-size: 9pt;
+	font-family: 宋体;
+	border-right: #330033 1px solid;
+	border-top: #330033 1px solid;
+	border-left: #330033 1px solid;
+	border-bottom: #330033 1px solid;
+	margin-left: 1px;
+	margin-right: 1px;
+	padding-left: 1px;
+}
+#waik
+{
+	width: 36px;
+	height: 0px;
+	margin-top: -214px;
+	margin-left: 1px;
+	overflow: hidden;
+}
+#neik
+{
+	color: #ffffff;
+	background-color: #0066cc;
+	margin-top: 0px;
+	width: 33px;
+	height: 99999600px;
+	padding-right: 8px;
+	text-align: right;
+	border-right: #ff0033 1px solid;
+	padding-top: 3px;
+}
+.Hditk
+{
+	margin-left: 1px;
+	overflow: hidden;
+}
+.sta1
+{
+	border-right: #ffffcc 1px solid;
+	border-top: #333333 1px solid;
+	border-left: #333333 1px solid;
+	border-bottom: #ffffcc 1px solid;
+	margin-top: 1px;
+	margin-left: 2px;
+	width: 62px;
+	height: 20px;
+	float: left;
+}
+.sta2
+{
+	border-right: #333333 1px solid;
+	border-top: #ffffcc 1px solid;
+	border-left: #ffffcc 1px solid;
+	border-bottom: #333333 1px solid;
+	margin-top: 1px;
+	margin-left: 2px;
+	width: 62px;
+	height: 20px;
+	float: left;
+}
+.stb2
+{
+	border-right: #ffffcc 1px solid;
+	border-top: #333333 1px solid;
+	border-left: #333333 1px solid;
+	border-bottom: #ffffcc 1px solid;
+	margin-top: 1px;
+	margin-left: 2px;
+	width: 62px;
+	height: 20px;
+	float: left;
+}
+.stb1
+{
+	border-right: #333333 1px solid;
+	border-top: #ffffcc 1px solid;
+	border-left: #ffffcc 1px solid;
+	border-bottom: #333333 1px solid;
+	margin-top: 1px;
+	margin-left: 2px;
+	width: 62px;
+	height: 20px;
+	float: left;
+}
+.ibot
+{
+	height: 25px;
+}
+.ibot_add
+{
+	margin-top: 2px;
+	margin-left: 3px;
+}
+.ibot_version
+{
+	color: #330033;
+	padding-left: 8px;
+	padding-top: 6px;
+	text-align: right;
+	font-size: 13px;
+}
+.dhk_anniu
+{
+width: 46; height: 32; border-left: 1px solid #FFFFFF; border-right: 1px solid #808080; 
+border-top: 1px solid #FFFFFF; border-bottom: 1px solid #808080; margin-top:5px;
+}
+.dhk_anniu2{
+border-left: 1px solid #FFFFFF; border-right: 1px solid #808080; border-top: 1px solid #FFFFFF; border-bottom: 1px solid #808080
+}
+.dhk_txtk{
+border-left: 1px solid #808080; border-right: 1px solid #C0C0C0; border-top: 1px solid #808080; border-bottom: 1px solid #C0C0C0; padding-left: 0px; padding-right: 0px; padding-top: 1px; padding-bottom: 1px; font-family:宋体; font-size:9pt
+}
+.selface_kong1
+{
+	height: 5px;
+	width: 1px;
+	margin-top: -2px;
+}
+.selface_01{}
+.selface_02
+{
+	border-right: #999999 1px solid;
+	border-top: #999999 1px solid;
+	margin-top: 9px;
+	margin-left: 59px;
+	border-left: #999999 1px solid;
+	width: 298px;
+	border-bottom: #999999 1px solid;
+	height: 183px;
+	background-color: #ffffff;
+	position: absolute;
+	left: 8px;
+	z-index: -1;
+}
+.selftface_xs
+{
+	margin-top: 10px;
+	margin-left: -5px;
+	width: 292px;
+	height: 180px;
+	background-color: #FFFFFF;
+	left: 0px;
+	
+	/*border-right: #999999 1px solid;
+	border-top: #999999 1px solid;
+	border-left: #999999 1px solid;
+	border-bottom: #999999 1px solid;*/
+}
+.selface_bq_a
+{
+	border-right: #999999 1px solid;
+	border-top: #999999 1px solid;
+	margin-top: 1px;
+	margin-left: 7px;
+	border-left: #999999 1px solid;
+	color: #666633;
+	border-bottom: #999999 1px solid;
+	background-color: #cccccc;
+	width: 60px;
+	height: 23px;
+	text-align: center;
+	padding-top: 5px;
+	cursor: hand;
+}
+.selface_bq_b
+{
+	border-right: #ffffff 1px solid;
+	border-top: #999999 1px solid;
+	margin-top: 1px;
+	margin-left: 7px;
+	border-left: #999999 1px solid;
+	color: #330033;
+	border-bottom: #999999 1px solid;
+	background-color: #ffffff;
+	width: 60px;
+	height: 23px;
+	text-align: center;
+	padding-top: 5px;
+	cursor: hand;
+}
+.selface_yulan
+{
+	border-left-color: #006666;
+	left: 8px;
+	border-bottom-color: #006666;
+	width: 55px;
+	border-top-style: double;
+	border-top-color: #006666;
+	border-right-style: double;
+	border-left-style: double;
+	position: absolute;
+	top: 137px;
+	height: 55px;
+	border-right-color: #006666;
+	border-bottom-style: double;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+.selftface_eve
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.selfont_eve
+{
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+.selfont
+{
+	cursor: hand;
+	width: 8px;
+	height: 8px;
+	vertical-align: middle;
+	text-align: center;
+}
+#font_yulan
+{
+	font-size: 28pt;
+}
+.pic_up_0
+{
+	width: 240px;
+	margin-top: 10px;
+	margin-left: 8px;
+	color: #333333;
+}
+
+.pic_up_1
+{
+	width: 240px;
+	margin-top: 6px;
+	margin-left: 8px;
+	color: #333333;
+}
+legend
+{
+	color: #333333;
+}
+fieldset
+{
+	color: #336666;
+}
+.alt_txt1
+{
+	font-size: 9pt;
+	font-family: 宋体;
+	height: 18px;
+}
+.pic_yulank
+{
+	width: 5px;
+	height: 5px;
+	margin-top: 10px;
+}
+.bdll
+{
+	left: 203px;
+	position: absolute;
+	top: 47px;
+}
+.sizeset
+{
+	left: 58px;
+	position: absolute;
+	top: 141px;
+	width: 200px;
+}
+.flash0
+{
+	margin-top: 8px;
+	margin-left: 8px;
+	width: 400px;
+}
+.abouts
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #003333;
+	padding-top: 8px;
+}

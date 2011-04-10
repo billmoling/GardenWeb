@@ -1,0 +1,46 @@
+﻿body 
+{
+    font-family:verdana, Arial, 微软雅黑;
+    width:1024px;
+    text-align:center;
+    margin:0px auto;
+}
+
+
+
+#header 
+{
+    background-image:url(../../images/admin/header.jpg);
+    height:60px;
+    width:1024px;
+}
+
+#footer 
+{
+    background-image:url(../../images/admin/footer.jpg);
+    height:20px;
+    width:1024;
+    margin-top:0px;
+}
+
+#middle
+{
+    height:530px;
+    display:block;
+    background-color:#fff;
+    width:1024px;
+    margin-top:2px;
+}
+
+#middle-left 
+{
+    float:left;
+    margin:0;
+}
+
+#middle-right
+{
+    float:right;
+    width:845px;
+    height:530px;
+}

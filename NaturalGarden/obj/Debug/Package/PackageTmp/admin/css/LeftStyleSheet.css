@@ -1,0 +1,87 @@
+﻿body 
+{
+    font-family:verdana, Arial, 微软雅黑;
+    width:168px;
+    text-align:center;
+}
+
+#summary
+{
+    background-image: url(../../images/admin/summary.jpg); 
+    width: 168px;
+    height: 117px;
+    text-align:center;
+}
+
+#summary p.title
+{
+    font-size:16px;
+    padding-top: 17px;
+    margin-top:0px;
+}
+
+#summary p.info
+{
+    font-size:14px;
+    line-height: 12px;
+    margin:0px;
+}
+
+#summary p.title span
+{
+    color:Red;
+}
+
+
+#summary p a
+{
+    text-decoration:none;
+}
+
+
+#summary p a:hover
+{
+    color:blue;
+    text-decoration:underline;
+}
+
+
+#nav_list
+{
+    background-image: url(../../images/admin/nav.jpg); 
+    width: 168px;
+    height:398px;
+    text-align:center;
+    margin-top:8px;
+}
+
+.submenu table tr td img
+{
+    margin-left:15px;
+}
+
+.sub_bg
+{
+     background-image:url(../../images/admin/submenu_bg.jpg);
+     width:147px;
+     height:23px;   
+     margin-top:7px;
+     font-size:16px;
+     text-align:center;
+     
+}
+#nav_menu
+{
+    height:370px;
+}
+
+table tr td a
+{
+    font-size:12px;
+    font-family:verdana, Arial, 微软雅黑;
+}
+
+.menutitle 
+{
+    margin-top:10px;
+}

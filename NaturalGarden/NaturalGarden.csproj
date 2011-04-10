@@ -1,0 +1,1103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2CFAF790-0FD4-4C18-ACBA-96D258CE9CB1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NaturalGarden</RootNamespace>
+    <AssemblyName>NaturalGarden</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+    <ExcludeApp_Data>true</ExcludeApp_Data>
+    <PublishDatabaseSettings>
+      <Objects>
+      </Objects>
+    </PublishDatabaseSettings>
+    <PublishDatabases>false</PublishDatabases>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CKEditor.NET">
+      <HintPath>..\WebSite\bin\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebSite\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebSite\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebSite\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging.Database, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebSite\bin\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebSite\bin\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebSite\bin\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebSite\bin\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="WebEditor">
+      <HintPath>..\WebSite\bin\WebEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="admin\addaadmin.aspx" />
+    <Content Include="admin\addaproduct.aspx" />
+    <Content Include="admin\addatype.aspx" />
+    <Content Include="admin\adminproducts.aspx" />
+    <Content Include="admin\checklogin.aspx" />
+    <Content Include="admin\css\AdminStyleSheet.css" />
+    <Content Include="admin\css\LeftStyleSheet.css" />
+    <Content Include="admin\css\RightStyleSheet.css" />
+    <Content Include="admin\editaadmin.aspx" />
+    <Content Include="admin\editaproduct.aspx" />
+    <Content Include="admin\index.aspx" />
+    <Content Include="admin\JScript.js" />
+    <Content Include="admin\left.aspx" />
+    <Content Include="admin\login.aspx" />
+    <Content Include="admin\login.htm" />
+    <Content Include="admin\loginOut.aspx" />
+    <Content Include="admin\SideBarUpdate.aspx" />
+    <Content Include="admin\WebEditUserControl.ascx" />
+    <Content Include="admin\welcome.aspx" />
+    <Content Include="CheckNumControl\getimg.aspx" />
+    <Content Include="ckeditor\adapters\jquery.js" />
+    <Content Include="ckeditor\CHANGES.html" />
+    <Content Include="ckeditor\ckeditor.js" />
+    <Content Include="ckeditor\ckeditor_basic.js" />
+    <Content Include="ckeditor\config.js" />
+    <Content Include="ckeditor\contents.css" />
+    <Content Include="ckeditor\images\spacer.gif" />
+    <Content Include="ckeditor\INSTALL.html" />
+    <Content Include="ckeditor\lang\af.js" />
+    <Content Include="ckeditor\lang\ar.js" />
+    <Content Include="ckeditor\lang\bg.js" />
+    <Content Include="ckeditor\lang\bn.js" />
+    <Content Include="ckeditor\lang\bs.js" />
+    <Content Include="ckeditor\lang\ca.js" />
+    <Content Include="ckeditor\lang\cs.js" />
+    <Content Include="ckeditor\lang\cy.js" />
+    <Content Include="ckeditor\lang\da.js" />
+    <Content Include="ckeditor\lang\de.js" />
+    <Content Include="ckeditor\lang\el.js" />
+    <Content Include="ckeditor\lang\en-au.js" />
+    <Content Include="ckeditor\lang\en-ca.js" />
+    <Content Include="ckeditor\lang\en-gb.js" />
+    <Content Include="ckeditor\lang\en.js" />
+    <Content Include="ckeditor\lang\eo.js" />
+    <Content Include="ckeditor\lang\es.js" />
+    <Content Include="ckeditor\lang\et.js" />
+    <Content Include="ckeditor\lang\eu.js" />
+    <Content Include="ckeditor\lang\fa.js" />
+    <Content Include="ckeditor\lang\fi.js" />
+    <Content Include="ckeditor\lang\fo.js" />
+    <Content Include="ckeditor\lang\fr-ca.js" />
+    <Content Include="ckeditor\lang\fr.js" />
+    <Content Include="ckeditor\lang\gl.js" />
+    <Content Include="ckeditor\lang\gu.js" />
+    <Content Include="ckeditor\lang\he.js" />
+    <Content Include="ckeditor\lang\hi.js" />
+    <Content Include="ckeditor\lang\hr.js" />
+    <Content Include="ckeditor\lang\hu.js" />
+    <Content Include="ckeditor\lang\is.js" />
+    <Content Include="ckeditor\lang\it.js" />
+    <Content Include="ckeditor\lang\ja.js" />
+    <Content Include="ckeditor\lang\km.js" />
+    <Content Include="ckeditor\lang\ko.js" />
+    <Content Include="ckeditor\lang\lt.js" />
+    <Content Include="ckeditor\lang\lv.js" />
+    <Content Include="ckeditor\lang\mn.js" />
+    <Content Include="ckeditor\lang\ms.js" />
+    <Content Include="ckeditor\lang\nb.js" />
+    <Content Include="ckeditor\lang\nl.js" />
+    <Content Include="ckeditor\lang\no.js" />
+    <Content Include="ckeditor\lang\pl.js" />
+    <Content Include="ckeditor\lang\pt-br.js" />
+    <Content Include="ckeditor\lang\pt.js" />
+    <Content Include="ckeditor\lang\ro.js" />
+    <Content Include="ckeditor\lang\ru.js" />
+    <Content Include="ckeditor\lang\sk.js" />
+    <Content Include="ckeditor\lang\sl.js" />
+    <Content Include="ckeditor\lang\sr-latn.js" />
+    <Content Include="ckeditor\lang\sr.js" />
+    <Content Include="ckeditor\lang\sv.js" />
+    <Content Include="ckeditor\lang\th.js" />
+    <Content Include="ckeditor\lang\tr.js" />
+    <Content Include="ckeditor\lang\uk.js" />
+    <Content Include="ckeditor\lang\vi.js" />
+    <Content Include="ckeditor\lang\zh-cn.js" />
+    <Content Include="ckeditor\lang\zh.js" />
+    <Content Include="ckeditor\lang\_languages.js" />
+    <Content Include="ckeditor\lang\_translationstatus.txt" />
+    <Content Include="ckeditor\LICENSE.html" />
+    <Content Include="ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\en.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\he.js" />
+    <Content Include="ckeditor\plugins\about\dialogs\about.js" />
+    <Content Include="ckeditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="ckeditor\plugins\adobeair\plugin.js" />
+    <Content Include="ckeditor\plugins\autogrow\plugin.js" />
+    <Content Include="ckeditor\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="ckeditor\plugins\colordialog\dialogs\colordialog.js" />
+    <Content Include="ckeditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="ckeditor\plugins\div\dialogs\div.js" />
+    <Content Include="ckeditor\plugins\find\dialogs\find.js" />
+    <Content Include="ckeditor\plugins\flash\dialogs\flash.js" />
+    <Content Include="ckeditor\plugins\flash\images\placeholder.png" />
+    <Content Include="ckeditor\plugins\forms\dialogs\button.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\checkbox.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\form.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\hiddenfield.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\radio.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\select.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\textarea.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\textfield.js" />
+    <Content Include="ckeditor\plugins\forms\images\hiddenfield.gif" />
+    <Content Include="ckeditor\plugins\iframedialog\plugin.js" />
+    <Content Include="ckeditor\plugins\iframe\dialogs\iframe.js" />
+    <Content Include="ckeditor\plugins\iframe\images\placeholder.png" />
+    <Content Include="ckeditor\plugins\image\dialogs\image.js" />
+    <Content Include="ckeditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="ckeditor\plugins\link\dialogs\link.js" />
+    <Content Include="ckeditor\plugins\link\images\anchor.gif" />
+    <Content Include="ckeditor\plugins\liststyle\dialogs\liststyle.js" />
+    <Content Include="ckeditor\plugins\pagebreak\images\pagebreak.gif" />
+    <Content Include="ckeditor\plugins\pastefromword\filter\default.js" />
+    <Content Include="ckeditor\plugins\pastetext\dialogs\pastetext.js" />
+    <Content Include="ckeditor\plugins\placeholder\dialogs\placeholder.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\en.js" />
+    <Content Include="ckeditor\plugins\placeholder\placeholder.gif" />
+    <Content Include="ckeditor\plugins\placeholder\plugin.js" />
+    <Content Include="ckeditor\plugins\scayt\dialogs\options.js" />
+    <Content Include="ckeditor\plugins\scayt\dialogs\toolbar.css" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_address.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_blockquote.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_div.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h1.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h2.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h3.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h4.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h5.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h6.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_p.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_pre.png" />
+    <Content Include="ckeditor\plugins\smiley\dialogs\smiley.js" />
+    <Content Include="ckeditor\plugins\smiley\images\angel_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\angry_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\broken_heart.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\confused_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\cry_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\devil_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\embaressed_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\envelope.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\heart.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\kiss.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\lightbulb.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\omg_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\regular_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\sad_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\shades_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\teeth_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\thumbs_down.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\thumbs_up.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\tounge_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\whatchutalkingabout_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\wink_smile.gif" />
+    <Content Include="ckeditor\plugins\specialchar\dialogs\specialchar.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\en.js" />
+    <Content Include="ckeditor\plugins\styles\styles\default.js" />
+    <Content Include="ckeditor\plugins\tableresize\plugin.js" />
+    <Content Include="ckeditor\plugins\tabletools\dialogs\tableCell.js" />
+    <Content Include="ckeditor\plugins\table\dialogs\table.js" />
+    <Content Include="ckeditor\plugins\templates\dialogs\templates.js" />
+    <Content Include="ckeditor\plugins\templates\templates\default.js" />
+    <Content Include="ckeditor\plugins\templates\templates\images\template1.gif" />
+    <Content Include="ckeditor\plugins\templates\templates\images\template2.gif" />
+    <Content Include="ckeditor\plugins\templates\templates\images\template3.gif" />
+    <Content Include="ckeditor\plugins\uicolor\dialogs\uicolor.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\en.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\he.js" />
+    <Content Include="ckeditor\plugins\uicolor\plugin.js" />
+    <Content Include="ckeditor\plugins\uicolor\uicolor.gif" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\hue_bg.png" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\hue_thumb.png" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\picker_mask.png" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\picker_thumb.png" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\yui.css" />
+    <Content Include="ckeditor\plugins\uicolor\yui\yui.js" />
+    <Content Include="ckeditor\plugins\wsc\dialogs\ciframe.html" />
+    <Content Include="ckeditor\plugins\wsc\dialogs\tmpFrameset.html" />
+    <Content Include="ckeditor\plugins\wsc\dialogs\wsc.css" />
+    <Content Include="ckeditor\plugins\wsc\dialogs\wsc.js" />
+    <Content Include="ckeditor\skins\kama\dialog.css" />
+    <Content Include="ckeditor\skins\kama\editor.css" />
+    <Content Include="ckeditor\skins\kama\icons.png" />
+    <Content Include="ckeditor\skins\kama\icons_rtl.png" />
+    <Content Include="ckeditor\skins\kama\images\dialog_sides.gif" />
+    <Content Include="ckeditor\skins\kama\images\dialog_sides.png" />
+    <Content Include="ckeditor\skins\kama\images\dialog_sides_rtl.png" />
+    <Content Include="ckeditor\skins\kama\images\mini.gif" />
+    <Content Include="ckeditor\skins\kama\images\noimage.png" />
+    <Content Include="ckeditor\skins\kama\images\sprites.png" />
+    <Content Include="ckeditor\skins\kama\images\sprites_ie6.png" />
+    <Content Include="ckeditor\skins\kama\images\toolbar_start.gif" />
+    <Content Include="ckeditor\skins\kama\skin.js" />
+    <Content Include="ckeditor\skins\kama\templates.css" />
+    <Content Include="ckeditor\skins\office2003\dialog.css" />
+    <Content Include="ckeditor\skins\office2003\editor.css" />
+    <Content Include="ckeditor\skins\office2003\icons.png" />
+    <Content Include="ckeditor\skins\office2003\icons_rtl.png" />
+    <Content Include="ckeditor\skins\office2003\images\dialog_sides.gif" />
+    <Content Include="ckeditor\skins\office2003\images\dialog_sides.png" />
+    <Content Include="ckeditor\skins\office2003\images\dialog_sides_rtl.png" />
+    <Content Include="ckeditor\skins\office2003\images\mini.gif" />
+    <Content Include="ckeditor\skins\office2003\images\noimage.png" />
+    <Content Include="ckeditor\skins\office2003\images\sprites.png" />
+    <Content Include="ckeditor\skins\office2003\images\sprites_ie6.png" />
+    <Content Include="ckeditor\skins\office2003\skin.js" />
+    <Content Include="ckeditor\skins\office2003\templates.css" />
+    <Content Include="ckeditor\skins\v2\dialog.css" />
+    <Content Include="ckeditor\skins\v2\editor.css" />
+    <Content Include="ckeditor\skins\v2\icons.png" />
+    <Content Include="ckeditor\skins\v2\icons_rtl.png" />
+    <Content Include="ckeditor\skins\v2\images\dialog_sides.gif" />
+    <Content Include="ckeditor\skins\v2\images\dialog_sides.png" />
+    <Content Include="ckeditor\skins\v2\images\dialog_sides_rtl.png" />
+    <Content Include="ckeditor\skins\v2\images\mini.gif" />
+    <Content Include="ckeditor\skins\v2\images\noimage.png" />
+    <Content Include="ckeditor\skins\v2\images\sprites.png" />
+    <Content Include="ckeditor\skins\v2\images\sprites_ie6.png" />
+    <Content Include="ckeditor\skins\v2\images\toolbar_start.gif" />
+    <Content Include="ckeditor\skins\v2\skin.js" />
+    <Content Include="ckeditor\skins\v2\templates.css" />
+    <Content Include="ckeditor\themes\default\theme.js" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Css\Footer.css" />
+    <Content Include="Css\Header.css" />
+    <Content Include="Css\Home.css" />
+    <Content Include="Css\Home_c.css" />
+    <Content Include="Css\Home_p.css" />
+    <Content Include="Css\Left.css" />
+    <Content Include="Css\Left_c.css" />
+    <Content Include="Css\Left_p.css" />
+    <Content Include="Css\MainHome.css" />
+    <Content Include="Css\MainProductAll.css" />
+    <Content Include="Css\Product.css" />
+    <Content Include="Css\Products.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="editor\WebEditor\editor.ascx" />
+    <Content Include="editor\WebEditor\image\anniu\123.gif" />
+    <Content Include="editor\WebEditor\image\anniu\about.gif" />
+    <Content Include="editor\WebEditor\image\anniu\aboutme.gif" />
+    <Content Include="editor\WebEditor\image\anniu\abspos.gif" />
+    <Content Include="editor\WebEditor\image\anniu\anchor.gif" />
+    <Content Include="editor\WebEditor\image\anniu\avi.gif" />
+    <Content Include="editor\WebEditor\image\anniu\BackColor.gif" />
+    <Content Include="editor\WebEditor\image\anniu\backward.gif" />
+    <Content Include="editor\WebEditor\image\anniu\beijingse.gif" />
+    <Content Include="editor\WebEditor\image\anniu\bgbar.gif" />
+    <Content Include="editor\WebEditor\image\anniu\bgbar2.gif" />
+    <Content Include="editor\WebEditor\image\anniu\blink.gif" />
+    <Content Include="editor\WebEditor\image\anniu\br.gif" />
+    <Content Include="editor\WebEditor\image\anniu\cens.gif" />
+    <Content Include="editor\WebEditor\image\anniu\checked.gif" />
+    <Content Include="editor\WebEditor\image\anniu\cleancode.gif" />
+    <Content Include="editor\WebEditor\image\anniu\code.gif" />
+    <Content Include="editor\WebEditor\image\anniu\componentmenu.gif" />
+    <Content Include="editor\WebEditor\image\anniu\copy.gif" />
+    <Content Include="editor\WebEditor\image\anniu\cut.gif" />
+    <Content Include="editor\WebEditor\image\anniu\cuti.gif" />
+    <Content Include="editor\WebEditor\image\anniu\date.gif" />
+    <Content Include="editor\WebEditor\image\anniu\delete.gif" />
+    <Content Include="editor\WebEditor\image\anniu\down.gif" />
+    <Content Include="editor\WebEditor\image\anniu\editmenu.gif" />
+    <Content Include="editor\WebEditor\image\anniu\editor.asa" />
+    <Content Include="editor\WebEditor\image\anniu\enter.gif" />
+    <Content Include="editor\WebEditor\image\anniu\excel.gif" />
+    <Content Include="editor\WebEditor\image\anniu\face.gif" />
+    <Content Include="editor\WebEditor\image\anniu\fieldset.gif" />
+    <Content Include="editor\WebEditor\image\anniu\figl.gif" />
+    <Content Include="editor\WebEditor\image\anniu\file.gif" />
+    <Content Include="editor\WebEditor\image\anniu\filemenu.gif" />
+    <Content Include="editor\WebEditor\image\anniu\findreplace.gif" />
+    <Content Include="editor\WebEditor\image\anniu\flash.gif" />
+    <Content Include="editor\WebEditor\image\anniu\formbutton.gif" />
+    <Content Include="editor\WebEditor\image\anniu\formcheckbox.gif" />
+    <Content Include="editor\WebEditor\image\anniu\formdropdown.gif" />
+    <Content Include="editor\WebEditor\image\anniu\formradio.gif" />
+    <Content Include="editor\WebEditor\image\anniu\formtext.gif" />
+    <Content Include="editor\WebEditor\image\anniu\formtextarea.gif" />
+    <Content Include="editor\WebEditor\image\anniu\forward.gif" />
+    <Content Include="editor\WebEditor\image\anniu\help.gif" />
+    <Content Include="editor\WebEditor\image\anniu\hr.gif" />
+    <Content Include="editor\WebEditor\image\anniu\icq.gif" />
+    <Content Include="editor\WebEditor\image\anniu\iframe.gif" />
+    <Content Include="editor\WebEditor\image\anniu\img.gif" />
+    <Content Include="editor\WebEditor\image\anniu\indent.gif" />
+    <Content Include="editor\WebEditor\image\anniu\insertimage.gif" />
+    <Content Include="editor\WebEditor\image\anniu\insertparagraph.gif" />
+    <Content Include="editor\WebEditor\image\anniu\link0.gif" />
+    <Content Include="editor\WebEditor\image\anniu\link1.gif" />
+    <Content Include="editor\WebEditor\image\anniu\liulan.gif" />
+    <Content Include="editor\WebEditor\image\anniu\loading.gif" />
+    <Content Include="editor\WebEditor\image\anniu\man.gif" />
+    <Content Include="editor\WebEditor\image\anniu\map.gif" />
+    <Content Include="editor\WebEditor\image\anniu\marquee.gif" />
+    <Content Include="editor\WebEditor\image\anniu\maximize.gif" />
+    <Content Include="editor\WebEditor\image\anniu\media.gif" />
+    <Content Include="editor\WebEditor\image\anniu\minimize.gif" />
+    <Content Include="editor\WebEditor\image\anniu\msn.gif" />
+    <Content Include="editor\WebEditor\image\anniu\objectmenu.gif" />
+    <Content Include="editor\WebEditor\image\anniu\outdent.gif" />
+    <Content Include="editor\WebEditor\image\anniu\paragraphmenu.gif" />
+    <Content Include="editor\WebEditor\image\anniu\paste.gif" />
+    <Content Include="editor\WebEditor\image\anniu\pastetext.gif" />
+    <Content Include="editor\WebEditor\image\anniu\pasteword.gif" />
+    <Content Include="editor\WebEditor\image\anniu\print.gif" />
+    <Content Include="editor\WebEditor\image\anniu\qq.gif" />
+    <Content Include="editor\WebEditor\image\anniu\quote.gif" />
+    <Content Include="editor\WebEditor\image\anniu\real.gif" />
+    <Content Include="editor\WebEditor\image\anniu\redo.gif" />
+    <Content Include="editor\WebEditor\image\anniu\refresh.gif" />
+    <Content Include="editor\WebEditor\image\anniu\remoteupload.gif" />
+    <Content Include="editor\WebEditor\image\anniu\removeformat.gif" />
+    <Content Include="editor\WebEditor\image\anniu\save.gif" />
+    <Content Include="editor\WebEditor\image\anniu\search.gif" />
+    <Content Include="editor\WebEditor\image\anniu\selectall.gif" />
+    <Content Include="editor\WebEditor\image\anniu\shangbiao.gif" />
+    <Content Include="editor\WebEditor\image\anniu\showborders.gif" />
+    <Content Include="editor\WebEditor\image\anniu\showdetails.gif" />
+    <Content Include="editor\WebEditor\image\anniu\site.gif" />
+    <Content Include="editor\WebEditor\image\anniu\sizeminus.gif" />
+    <Content Include="editor\WebEditor\image\anniu\sizeplus.gif" />
+    <Content Include="editor\WebEditor\image\anniu\space.gif" />
+    <Content Include="editor\WebEditor\image\anniu\spellcheck.gif" />
+    <Content Include="editor\WebEditor\image\anniu\symbol.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablecellprop.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablecellsplit.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablecoldelete.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablecolinsertleft.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablecolinsertright.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablecolmerge.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablecolsplit.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tableinsert.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablemenu.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tableprop.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablerowdelete.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablerowinsertabove.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablerowinsertbelow.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablerowmerge.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablerowprop.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tablerowsplit.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tefont.gif" />
+    <Content Include="editor\WebEditor\image\anniu\time.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tobig.gif" />
+    <Content Include="editor\WebEditor\image\anniu\toolmenu.gif" />
+    <Content Include="editor\WebEditor\image\anniu\tosmall.gif" />
+    <Content Include="editor\WebEditor\image\anniu\undo.gif" />
+    <Content Include="editor\WebEditor\image\anniu\unselect.gif" />
+    <Content Include="editor\WebEditor\image\anniu\xiabiao.gif" />
+    <Content Include="editor\WebEditor\image\anniu\xiahuaxian.gif" />
+    <Content Include="editor\WebEditor\image\anniu\xieti.gif" />
+    <Content Include="editor\WebEditor\image\anniu\xmfh.gif" />
+    <Content Include="editor\WebEditor\image\anniu\you.gif" />
+    <Content Include="editor\WebEditor\image\anniu\zhong.gif" />
+    <Content Include="editor\WebEditor\image\anniu\zhongxian.gif" />
+    <Content Include="editor\WebEditor\image\anniu\zitibg.gif" />
+    <Content Include="editor\WebEditor\image\anniu\ziticolor.gif" />
+    <Content Include="editor\WebEditor\image\anniu\zoommenu.gif" />
+    <Content Include="editor\WebEditor\image\anniu\zuo.gif" />
+    <Content Include="editor\WebEditor\image\bg.gif" />
+    <Content Include="editor\WebEditor\image\code.gif" />
+    <Content Include="editor\WebEditor\image\edit.gif" />
+    <Content Include="editor\WebEditor\image\face\1\1.gif" />
+    <Content Include="editor\WebEditor\image\face\1\10.gif" />
+    <Content Include="editor\WebEditor\image\face\1\11.gif" />
+    <Content Include="editor\WebEditor\image\face\1\12.gif" />
+    <Content Include="editor\WebEditor\image\face\1\13.gif" />
+    <Content Include="editor\WebEditor\image\face\1\14.gif" />
+    <Content Include="editor\WebEditor\image\face\1\15.gif" />
+    <Content Include="editor\WebEditor\image\face\1\16.gif" />
+    <Content Include="editor\WebEditor\image\face\1\17.gif" />
+    <Content Include="editor\WebEditor\image\face\1\18.gif" />
+    <Content Include="editor\WebEditor\image\face\1\19.gif" />
+    <Content Include="editor\WebEditor\image\face\1\2.gif" />
+    <Content Include="editor\WebEditor\image\face\1\20.gif" />
+    <Content Include="editor\WebEditor\image\face\1\21.gif" />
+    <Content Include="editor\WebEditor\image\face\1\22.gif" />
+    <Content Include="editor\WebEditor\image\face\1\23.gif" />
+    <Content Include="editor\WebEditor\image\face\1\24.gif" />
+    <Content Include="editor\WebEditor\image\face\1\25.gif" />
+    <Content Include="editor\WebEditor\image\face\1\26.gif" />
+    <Content Include="editor\WebEditor\image\face\1\27.gif" />
+    <Content Include="editor\WebEditor\image\face\1\28.gif" />
+    <Content Include="editor\WebEditor\image\face\1\29.gif" />
+    <Content Include="editor\WebEditor\image\face\1\3.gif" />
+    <Content Include="editor\WebEditor\image\face\1\30.gif" />
+    <Content Include="editor\WebEditor\image\face\1\31.gif" />
+    <Content Include="editor\WebEditor\image\face\1\32.gif" />
+    <Content Include="editor\WebEditor\image\face\1\33.gif" />
+    <Content Include="editor\WebEditor\image\face\1\34.gif" />
+    <Content Include="editor\WebEditor\image\face\1\35.gif" />
+    <Content Include="editor\WebEditor\image\face\1\36.gif" />
+    <Content Include="editor\WebEditor\image\face\1\37.gif" />
+    <Content Include="editor\WebEditor\image\face\1\38.gif" />
+    <Content Include="editor\WebEditor\image\face\1\39.gif" />
+    <Content Include="editor\WebEditor\image\face\1\4.gif" />
+    <Content Include="editor\WebEditor\image\face\1\40.gif" />
+    <Content Include="editor\WebEditor\image\face\1\41.gif" />
+    <Content Include="editor\WebEditor\image\face\1\42.gif" />
+    <Content Include="editor\WebEditor\image\face\1\43.gif" />
+    <Content Include="editor\WebEditor\image\face\1\44.gif" />
+    <Content Include="editor\WebEditor\image\face\1\45.gif" />
+    <Content Include="editor\WebEditor\image\face\1\46.gif" />
+    <Content Include="editor\WebEditor\image\face\1\47.gif" />
+    <Content Include="editor\WebEditor\image\face\1\48.gif" />
+    <Content Include="editor\WebEditor\image\face\1\49.gif" />
+    <Content Include="editor\WebEditor\image\face\1\5.gif" />
+    <Content Include="editor\WebEditor\image\face\1\50.gif" />
+    <Content Include="editor\WebEditor\image\face\1\6.gif" />
+    <Content Include="editor\WebEditor\image\face\1\7.gif" />
+    <Content Include="editor\WebEditor\image\face\1\8.gif" />
+    <Content Include="editor\WebEditor\image\face\1\9.gif" />
+    <Content Include="editor\WebEditor\image\face\2\1.gif" />
+    <Content Include="editor\WebEditor\image\face\2\10.gif" />
+    <Content Include="editor\WebEditor\image\face\2\11.gif" />
+    <Content Include="editor\WebEditor\image\face\2\12.gif" />
+    <Content Include="editor\WebEditor\image\face\2\13.gif" />
+    <Content Include="editor\WebEditor\image\face\2\14.gif" />
+    <Content Include="editor\WebEditor\image\face\2\15.gif" />
+    <Content Include="editor\WebEditor\image\face\2\16.gif" />
+    <Content Include="editor\WebEditor\image\face\2\17.gif" />
+    <Content Include="editor\WebEditor\image\face\2\18.gif" />
+    <Content Include="editor\WebEditor\image\face\2\19.gif" />
+    <Content Include="editor\WebEditor\image\face\2\2.gif" />
+    <Content Include="editor\WebEditor\image\face\2\20.gif" />
+    <Content Include="editor\WebEditor\image\face\2\21.gif" />
+    <Content Include="editor\WebEditor\image\face\2\22.gif" />
+    <Content Include="editor\WebEditor\image\face\2\23.gif" />
+    <Content Include="editor\WebEditor\image\face\2\24.gif" />
+    <Content Include="editor\WebEditor\image\face\2\25.gif" />
+    <Content Include="editor\WebEditor\image\face\2\26.gif" />
+    <Content Include="editor\WebEditor\image\face\2\27.gif" />
+    <Content Include="editor\WebEditor\image\face\2\28.gif" />
+    <Content Include="editor\WebEditor\image\face\2\29.gif" />
+    <Content Include="editor\WebEditor\image\face\2\3.gif" />
+    <Content Include="editor\WebEditor\image\face\2\30.gif" />
+    <Content Include="editor\WebEditor\image\face\2\31.gif" />
+    <Content Include="editor\WebEditor\image\face\2\32.gif" />
+    <Content Include="editor\WebEditor\image\face\2\33.gif" />
+    <Content Include="editor\WebEditor\image\face\2\34.gif" />
+    <Content Include="editor\WebEditor\image\face\2\35.gif" />
+    <Content Include="editor\WebEditor\image\face\2\36.gif" />
+    <Content Include="editor\WebEditor\image\face\2\37.gif" />
+    <Content Include="editor\WebEditor\image\face\2\38.gif" />
+    <Content Include="editor\WebEditor\image\face\2\39.gif" />
+    <Content Include="editor\WebEditor\image\face\2\4.gif" />
+    <Content Include="editor\WebEditor\image\face\2\40.gif" />
+    <Content Include="editor\WebEditor\image\face\2\41.gif" />
+    <Content Include="editor\WebEditor\image\face\2\42.gif" />
+    <Content Include="editor\WebEditor\image\face\2\43.gif" />
+    <Content Include="editor\WebEditor\image\face\2\44.gif" />
+    <Content Include="editor\WebEditor\image\face\2\45.gif" />
+    <Content Include="editor\WebEditor\image\face\2\46.gif" />
+    <Content Include="editor\WebEditor\image\face\2\47.gif" />
+    <Content Include="editor\WebEditor\image\face\2\48.gif" />
+    <Content Include="editor\WebEditor\image\face\2\49.gif" />
+    <Content Include="editor\WebEditor\image\face\2\5.gif" />
+    <Content Include="editor\WebEditor\image\face\2\50.gif" />
+    <Content Include="editor\WebEditor\image\face\2\6.gif" />
+    <Content Include="editor\WebEditor\image\face\2\7.gif" />
+    <Content Include="editor\WebEditor\image\face\2\8.gif" />
+    <Content Include="editor\WebEditor\image\face\2\9.gif" />
+    <Content Include="editor\WebEditor\image\face\3\1.gif" />
+    <Content Include="editor\WebEditor\image\face\3\10.gif" />
+    <Content Include="editor\WebEditor\image\face\3\11.gif" />
+    <Content Include="editor\WebEditor\image\face\3\12.gif" />
+    <Content Include="editor\WebEditor\image\face\3\13.gif" />
+    <Content Include="editor\WebEditor\image\face\3\14.gif" />
+    <Content Include="editor\WebEditor\image\face\3\15.gif" />
+    <Content Include="editor\WebEditor\image\face\3\16.gif" />
+    <Content Include="editor\WebEditor\image\face\3\17.gif" />
+    <Content Include="editor\WebEditor\image\face\3\18.gif" />
+    <Content Include="editor\WebEditor\image\face\3\19.gif" />
+    <Content Include="editor\WebEditor\image\face\3\2.gif" />
+    <Content Include="editor\WebEditor\image\face\3\20.gif" />
+    <Content Include="editor\WebEditor\image\face\3\21.gif" />
+    <Content Include="editor\WebEditor\image\face\3\22.gif" />
+    <Content Include="editor\WebEditor\image\face\3\23.gif" />
+    <Content Include="editor\WebEditor\image\face\3\24.gif" />
+    <Content Include="editor\WebEditor\image\face\3\25.gif" />
+    <Content Include="editor\WebEditor\image\face\3\26.gif" />
+    <Content Include="editor\WebEditor\image\face\3\27.gif" />
+    <Content Include="editor\WebEditor\image\face\3\28.gif" />
+    <Content Include="editor\WebEditor\image\face\3\29.gif" />
+    <Content Include="editor\WebEditor\image\face\3\3.gif" />
+    <Content Include="editor\WebEditor\image\face\3\30.gif" />
+    <Content Include="editor\WebEditor\image\face\3\31.gif" />
+    <Content Include="editor\WebEditor\image\face\3\32.gif" />
+    <Content Include="editor\WebEditor\image\face\3\33.gif" />
+    <Content Include="editor\WebEditor\image\face\3\34.gif" />
+    <Content Include="editor\WebEditor\image\face\3\35.gif" />
+    <Content Include="editor\WebEditor\image\face\3\36.gif" />
+    <Content Include="editor\WebEditor\image\face\3\37.gif" />
+    <Content Include="editor\WebEditor\image\face\3\38.gif" />
+    <Content Include="editor\WebEditor\image\face\3\39.gif" />
+    <Content Include="editor\WebEditor\image\face\3\4.gif" />
+    <Content Include="editor\WebEditor\image\face\3\40.gif" />
+    <Content Include="editor\WebEditor\image\face\3\41.gif" />
+    <Content Include="editor\WebEditor\image\face\3\42.gif" />
+    <Content Include="editor\WebEditor\image\face\3\43.gif" />
+    <Content Include="editor\WebEditor\image\face\3\44.gif" />
+    <Content Include="editor\WebEditor\image\face\3\45.gif" />
+    <Content Include="editor\WebEditor\image\face\3\46.gif" />
+    <Content Include="editor\WebEditor\image\face\3\47.gif" />
+    <Content Include="editor\WebEditor\image\face\3\48.gif" />
+    <Content Include="editor\WebEditor\image\face\3\49.gif" />
+    <Content Include="editor\WebEditor\image\face\3\5.gif" />
+    <Content Include="editor\WebEditor\image\face\3\50.gif" />
+    <Content Include="editor\WebEditor\image\face\3\51.gif" />
+    <Content Include="editor\WebEditor\image\face\3\52.gif" />
+    <Content Include="editor\WebEditor\image\face\3\53.gif" />
+    <Content Include="editor\WebEditor\image\face\3\54.gif" />
+    <Content Include="editor\WebEditor\image\face\3\55.gif" />
+    <Content Include="editor\WebEditor\image\face\3\56.gif" />
+    <Content Include="editor\WebEditor\image\face\3\57.gif" />
+    <Content Include="editor\WebEditor\image\face\3\58.gif" />
+    <Content Include="editor\WebEditor\image\face\3\59.gif" />
+    <Content Include="editor\WebEditor\image\face\3\6.gif" />
+    <Content Include="editor\WebEditor\image\face\3\60.gif" />
+    <Content Include="editor\WebEditor\image\face\3\7.gif" />
+    <Content Include="editor\WebEditor\image\face\3\8.gif" />
+    <Content Include="editor\WebEditor\image\face\3\9.gif" />
+    <Content Include="editor\WebEditor\image\face\4\1.gif" />
+    <Content Include="editor\WebEditor\image\face\4\10.gif" />
+    <Content Include="editor\WebEditor\image\face\4\11.gif" />
+    <Content Include="editor\WebEditor\image\face\4\12.gif" />
+    <Content Include="editor\WebEditor\image\face\4\13.gif" />
+    <Content Include="editor\WebEditor\image\face\4\14.gif" />
+    <Content Include="editor\WebEditor\image\face\4\15.gif" />
+    <Content Include="editor\WebEditor\image\face\4\16.gif" />
+    <Content Include="editor\WebEditor\image\face\4\17.gif" />
+    <Content Include="editor\WebEditor\image\face\4\18.gif" />
+    <Content Include="editor\WebEditor\image\face\4\19.gif" />
+    <Content Include="editor\WebEditor\image\face\4\2.gif" />
+    <Content Include="editor\WebEditor\image\face\4\20.gif" />
+    <Content Include="editor\WebEditor\image\face\4\21.gif" />
+    <Content Include="editor\WebEditor\image\face\4\22.gif" />
+    <Content Include="editor\WebEditor\image\face\4\23.gif" />
+    <Content Include="editor\WebEditor\image\face\4\24.gif" />
+    <Content Include="editor\WebEditor\image\face\4\25.gif" />
+    <Content Include="editor\WebEditor\image\face\4\26.gif" />
+    <Content Include="editor\WebEditor\image\face\4\27.gif" />
+    <Content Include="editor\WebEditor\image\face\4\28.gif" />
+    <Content Include="editor\WebEditor\image\face\4\29.gif" />
+    <Content Include="editor\WebEditor\image\face\4\3.gif" />
+    <Content Include="editor\WebEditor\image\face\4\30.gif" />
+    <Content Include="editor\WebEditor\image\face\4\31.gif" />
+    <Content Include="editor\WebEditor\image\face\4\32.gif" />
+    <Content Include="editor\WebEditor\image\face\4\33.gif" />
+    <Content Include="editor\WebEditor\image\face\4\34.gif" />
+    <Content Include="editor\WebEditor\image\face\4\35.gif" />
+    <Content Include="editor\WebEditor\image\face\4\36.gif" />
+    <Content Include="editor\WebEditor\image\face\4\37.gif" />
+    <Content Include="editor\WebEditor\image\face\4\38.gif" />
+    <Content Include="editor\WebEditor\image\face\4\39.gif" />
+    <Content Include="editor\WebEditor\image\face\4\4.gif" />
+    <Content Include="editor\WebEditor\image\face\4\40.gif" />
+    <Content Include="editor\WebEditor\image\face\4\41.gif" />
+    <Content Include="editor\WebEditor\image\face\4\42.gif" />
+    <Content Include="editor\WebEditor\image\face\4\43.gif" />
+    <Content Include="editor\WebEditor\image\face\4\44.gif" />
+    <Content Include="editor\WebEditor\image\face\4\45.gif" />
+    <Content Include="editor\WebEditor\image\face\4\46.gif" />
+    <Content Include="editor\WebEditor\image\face\4\47.gif" />
+    <Content Include="editor\WebEditor\image\face\4\48.gif" />
+    <Content Include="editor\WebEditor\image\face\4\49.gif" />
+    <Content Include="editor\WebEditor\image\face\4\5.gif" />
+    <Content Include="editor\WebEditor\image\face\4\50.gif" />
+    <Content Include="editor\WebEditor\image\face\4\51.gif" />
+    <Content Include="editor\WebEditor\image\face\4\52.gif" />
+    <Content Include="editor\WebEditor\image\face\4\53.gif" />
+    <Content Include="editor\WebEditor\image\face\4\54.gif" />
+    <Content Include="editor\WebEditor\image\face\4\55.gif" />
+    <Content Include="editor\WebEditor\image\face\4\56.gif" />
+    <Content Include="editor\WebEditor\image\face\4\57.gif" />
+    <Content Include="editor\WebEditor\image\face\4\58.gif" />
+    <Content Include="editor\WebEditor\image\face\4\6.gif" />
+    <Content Include="editor\WebEditor\image\face\4\7.gif" />
+    <Content Include="editor\WebEditor\image\face\4\8.gif" />
+    <Content Include="editor\WebEditor\image\face\4\9.gif" />
+    <Content Include="editor\WebEditor\image\face\5\1.gif" />
+    <Content Include="editor\WebEditor\image\face\5\10.gif" />
+    <Content Include="editor\WebEditor\image\face\5\11.gif" />
+    <Content Include="editor\WebEditor\image\face\5\12.gif" />
+    <Content Include="editor\WebEditor\image\face\5\13.gif" />
+    <Content Include="editor\WebEditor\image\face\5\14.gif" />
+    <Content Include="editor\WebEditor\image\face\5\15.gif" />
+    <Content Include="editor\WebEditor\image\face\5\16.gif" />
+    <Content Include="editor\WebEditor\image\face\5\17.gif" />
+    <Content Include="editor\WebEditor\image\face\5\18.gif" />
+    <Content Include="editor\WebEditor\image\face\5\19.gif" />
+    <Content Include="editor\WebEditor\image\face\5\2.gif" />
+    <Content Include="editor\WebEditor\image\face\5\20.gif" />
+    <Content Include="editor\WebEditor\image\face\5\21.gif" />
+    <Content Include="editor\WebEditor\image\face\5\22.gif" />
+    <Content Include="editor\WebEditor\image\face\5\23.gif" />
+    <Content Include="editor\WebEditor\image\face\5\24.gif" />
+    <Content Include="editor\WebEditor\image\face\5\25.gif" />
+    <Content Include="editor\WebEditor\image\face\5\26.gif" />
+    <Content Include="editor\WebEditor\image\face\5\27.gif" />
+    <Content Include="editor\WebEditor\image\face\5\28.gif" />
+    <Content Include="editor\WebEditor\image\face\5\29.gif" />
+    <Content Include="editor\WebEditor\image\face\5\3.gif" />
+    <Content Include="editor\WebEditor\image\face\5\30.gif" />
+    <Content Include="editor\WebEditor\image\face\5\31.gif" />
+    <Content Include="editor\WebEditor\image\face\5\32.gif" />
+    <Content Include="editor\WebEditor\image\face\5\33.gif" />
+    <Content Include="editor\WebEditor\image\face\5\34.gif" />
+    <Content Include="editor\WebEditor\image\face\5\35.gif" />
+    <Content Include="editor\WebEditor\image\face\5\36.gif" />
+    <Content Include="editor\WebEditor\image\face\5\37.gif" />
+    <Content Include="editor\WebEditor\image\face\5\38.gif" />
+    <Content Include="editor\WebEditor\image\face\5\4.gif" />
+    <Content Include="editor\WebEditor\image\face\5\5.gif" />
+    <Content Include="editor\WebEditor\image\face\5\6.gif" />
+    <Content Include="editor\WebEditor\image\face\5\7.gif" />
+    <Content Include="editor\WebEditor\image\face\5\8.gif" />
+    <Content Include="editor\WebEditor\image\face\5\9.gif" />
+    <Content Include="editor\WebEditor\image\face\其他一.txt" />
+    <Content Include="editor\WebEditor\image\face\其他二.txt" />
+    <Content Include="editor\WebEditor\image\fg.gif" />
+    <Content Include="editor\WebEditor\image\logo.gif" />
+    <Content Include="editor\WebEditor\image\logo.png" />
+    <Content Include="editor\WebEditor\image\trans.gif" />
+    <Content Include="editor\WebEditor\image\waiting.gif" />
+    <Content Include="editor\WebEditor\include\Avi.aspx" />
+    <Content Include="editor\WebEditor\include\Editor.css" />
+    <Content Include="editor\WebEditor\include\FindReplace.aspx" />
+    <Content Include="editor\WebEditor\include\Flash.aspx" />
+    <Content Include="editor\WebEditor\include\Link.aspx" />
+    <Content Include="editor\WebEditor\include\selcolor.aspx" />
+    <Content Include="editor\WebEditor\include\SelectFace.aspx" />
+    <Content Include="editor\WebEditor\include\SelectFont.aspx" />
+    <Content Include="editor\WebEditor\include\upimg.aspx" />
+    <Content Include="editor\WebEditor\include\upload.aspx" />
+    <Content Include="editor\WebEditor\include\upopen.aspx" />
+    <Content Include="editor\WebEditor\include\UpProgress.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\admin\admin.gif" />
+    <Content Include="images\admin\btn_logout.gif" />
+    <Content Include="images\admin\btn_refresh.gif" />
+    <Content Include="images\admin\bullet.jpg" />
+    <Content Include="images\admin\footer.jpg" />
+    <Content Include="images\admin\header.jpg" />
+    <Content Include="images\admin\home.jpg" />
+    <Content Include="images\admin\nav.jpg" />
+    <Content Include="images\admin\poweredby.gif" />
+    <Content Include="images\admin\right_bg.jpg" />
+    <Content Include="images\admin\submenu_bg.jpg" />
+    <Content Include="images\admin\summary.jpg" />
+    <Content Include="images\book.gif" />
+    <Content Include="images\contact-left-1.jpg" />
+    <Content Include="images\contact-left-2.jpg" />
+    <Content Include="images\content-background-1-long.jpg" />
+    <Content Include="images\content-background-1.jpg" />
+    <Content Include="images\content-background-2-long.jpg" />
+    <Content Include="images\content-background-2.jpg" />
+    <Content Include="images\content-background-3.jpg" />
+    <Content Include="images\content-background-4.jpg" />
+    <Content Include="images\footer.jpg" />
+    <Content Include="images\green.gif" />
+    <Content Include="images\head-background.jpg" />
+    <Content Include="images\left-background-long.jpg" />
+    <Content Include="images\left-background.jpg" />
+    <Content Include="images\line-1.png" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\nav_bar.jpg" />
+    <Content Include="images\next.png" />
+    <Content Include="images\pre.png" />
+    <Content Include="images\qingting.gif" />
+    <Content Include="images\search-btn.gif" />
+    <Content Include="images\telephone.gif" />
+    <Content Include="images\whatnew.jpg" />
+    <Content Include="MainHome.aspx" />
+    <Content Include="New.aspx" />
+    <Content Include="Product.aspx" />
+    <Content Include="productPic\20110223065223127001.jpg" />
+    <Content Include="productPic\20110223115322127001.jpg" />
+    <Content Include="productPic\20110223115339127001.jpg" />
+    <Content Include="productPic\20110223115358127001.jpg" />
+    <Content Include="productPic\20110223115425127001.jpg" />
+    <Content Include="productPic\20110223115444127001.jpg" />
+    <Content Include="productPic\20110223115526127001.jpg" />
+    <Content Include="productPic\20110223115545127001.jpg" />
+    <Content Include="productPic\20110223115619127001.jpg" />
+    <Content Include="productPic\20110223115708127001.jpg" />
+    <Content Include="productPic\20110223115731127001.jpg" />
+    <Content Include="productPic\20110308111629127001.JPG" />
+    <Content Include="productPic\20110308112622127001.JPG" />
+    <Content Include="productPic\20110308112912127001.jpg" />
+    <Content Include="productPic\20110310013044127001.jpg" />
+    <Content Include="productPic\20110317013108127001.jpg" />
+    <Content Include="productPic\20110317013703127001.gif" />
+    <Content Include="productPic\20110317013853127001.jpg" />
+    <Content Include="productPic\20110317015759127001.gif" />
+    <Content Include="productPic\20110317015947127001.gif" />
+    <Content Include="productPic\20110319095655127001.jpg" />
+    <Content Include="productPic\20110319095919127001.jpg" />
+    <Content Include="productPic\20110319100046127001.jpg" />
+    <Content Include="productPic\20110319100707127001.gif" />
+    <Content Include="productPic\20110319100806127001.gif" />
+    <Content Include="productPic\20110319101102127001.gif" />
+    <Content Include="productPic\20110319101302127001.gif" />
+    <Content Include="productPic\20110319101350127001.jpg" />
+    <Content Include="productPic\20110319101403127001.gif" />
+    <Content Include="productPic\20110319123915127001.jpg" />
+    <Content Include="productPic\20110320093252127001.gif" />
+    <Content Include="productPic\20110320093708127001.gif" />
+    <Content Include="productPic\20110320094105127001.gif" />
+    <Content Include="productPic\20110320094212127001.jpg" />
+    <Content Include="productPic\20110320103047127001.gif" />
+    <Content Include="Products.aspx" />
+    <Content Include="Promotion.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\addAadmin.aspx.cs">
+      <DependentUpon>addaadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\addAadmin.aspx.designer.cs">
+      <DependentUpon>addaadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\addAProduct.aspx.cs">
+      <DependentUpon>addaproduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\addAProduct.aspx.designer.cs">
+      <DependentUpon>addaproduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\addAType.aspx.cs">
+      <DependentUpon>addatype.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\addAType.aspx.designer.cs">
+      <DependentUpon>addatype.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\adminProducts.aspx.cs">
+      <DependentUpon>adminproducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\adminProducts.aspx.designer.cs">
+      <DependentUpon>adminproducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\CheckLogin.aspx.cs">
+      <DependentUpon>checklogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\CheckLogin.aspx.designer.cs">
+      <DependentUpon>checklogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\EditAadmin.aspx.cs">
+      <DependentUpon>editaadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\EditAadmin.aspx.designer.cs">
+      <DependentUpon>editaadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\EditAProduct.aspx.cs">
+      <DependentUpon>editaproduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\EditAProduct.aspx.designer.cs">
+      <DependentUpon>editaproduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\left.aspx.cs">
+      <DependentUpon>left.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\left.aspx.designer.cs">
+      <DependentUpon>left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\loginOut.aspx.cs">
+      <DependentUpon>loginOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\loginOut.aspx.designer.cs">
+      <DependentUpon>loginOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\SideBarUpdate.aspx.cs">
+      <DependentUpon>SideBarUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\SideBarUpdate.aspx.designer.cs">
+      <DependentUpon>SideBarUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebEditUserControl.ascx.cs">
+      <DependentUpon>WebEditUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\WebEditUserControl.ascx.designer.cs">
+      <DependentUpon>WebEditUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\welcome.aspx.cs">
+      <DependentUpon>welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\welcome.aspx.designer.cs">
+      <DependentUpon>welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckNumControl\getImg.aspx.cs">
+      <DependentUpon>getimg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckNumControl\getImg.aspx.designer.cs">
+      <DependentUpon>getimg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.master.cs">
+      <DependentUpon>HomePage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.master.designer.cs">
+      <DependentUpon>HomePage.master</DependentUpon>
+    </Compile>
+    <Compile Include="MainHome.aspx.cs">
+      <DependentUpon>MainHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainHome.aspx.designer.cs">
+      <DependentUpon>MainHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="New.aspx.cs">
+      <DependentUpon>New.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="New.aspx.designer.cs">
+      <DependentUpon>New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductPage.master.cs">
+      <DependentUpon>ProductPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductPage.master.designer.cs">
+      <DependentUpon>ProductPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Promotion.aspx.cs">
+      <DependentUpon>Promotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Promotion.aspx.designer.cs">
+      <DependentUpon>Promotion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Old_App_Code\Constants.cs" />
+    <Compile Include="Old_App_Code\DataFactory.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\Migrated\admin\Welcome_aspx_cs_Welcome.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Testinfo.aspx.cs">
+      <DependentUpon>Testinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Testinfo.aspx.designer.cs">
+      <DependentUpon>Testinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uploadPdf.aspx.cs">
+      <DependentUpon>uploadPdf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uploadPdf.aspx.designer.cs">
+      <DependentUpon>uploadPdf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uploadPic.aspx.cs">
+      <DependentUpon>uploadPic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uploadPic.aspx.designer.cs">
+      <DependentUpon>uploadPic.aspx</DependentUpon>
+    </Compile>
+    <Content Include="admin\Web.config" />
+    <None Include="ckeditor\.htaccess" />
+    <Content Include="HomePage.master" />
+    <None Include="images\nav_bar.jpg_" />
+    <Content Include="ProductPage.master" />
+    <None Include="productPdf\20110310012728127001.pdf" />
+    <None Include="productPdf\20110310013100127001.pdf" />
+    <None Include="productPdf\20110317013719127001.pdf" />
+    <None Include="productPdf\20110317015806127001.pdf" />
+    <None Include="productPdf\20110317015947127001.pdf" />
+    <None Include="productPdf\20110319095728127001.pdf" />
+    <None Include="productPdf\20110319095933127001.pdf" />
+    <None Include="productPdf\20110319101308127001.pdf" />
+    <None Include="productPdf\20110319123916127001.pdf" />
+    <None Include="productPdf\20110320093253127001.pdf" />
+    <None Include="productPdf\20110320093714127001.pdf" />
+    <None Include="productPdf\20110320094117127001.pdf" />
+    <None Include="productPdf\20110320103054127001.pdf" />
+    <None Include="Properties\AssemblyInfo.cs.orig" />
+    <Content Include="SideBar\SideBar.htm" />
+    <Content Include="Test.aspx" />
+    <Content Include="Testinfo.aspx" />
+    <Content Include="uploadPdf.aspx" />
+    <Content Include="uploadPic.aspx" />
+    <Content Include="web.config" />
+    <Content Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+    <Content Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="editor\WebEditor\uppic\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>33559</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

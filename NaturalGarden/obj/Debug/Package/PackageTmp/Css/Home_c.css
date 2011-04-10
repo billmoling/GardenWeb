@@ -1,0 +1,46 @@
+﻿
+*
+{
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+body 
+{
+    font-family:verdana, Arial, 微软雅黑;
+    width:1024px;
+    text-align:center;
+    margin:0px auto;
+}
+
+div#container
+{
+    width:1024px;
+    margin:0px auto;
+}
+
+#header
+{
+    width:1024px;
+    height:309px;
+}
+
+div#content
+{
+    background-image:url(../images/content-background-4.jpg);
+    padding-top:10px;
+    padding-bottom:10px;
+    width:1024px;
+}
+
+div#content2
+{
+    background-image:url(../images/content-background-3.jpg);
+    margin-left:15px;
+    width:994px;
+    height:1300px;
+}
+
+
+
