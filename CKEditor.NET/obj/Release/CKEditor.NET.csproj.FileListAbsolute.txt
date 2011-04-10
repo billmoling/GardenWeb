@@ -1,0 +1,5 @@
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\CKEditor.NET\bin\Release\CKEditor.NET.dll
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\CKEditor.NET\bin\Release\CKEditor.NET.pdb
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\CKEditor.NET\obj\Release\ResolveAssemblyReference.cache
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\CKEditor.NET\obj\Release\CKEditor.NET.dll
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\CKEditor.NET\obj\Release\CKEditor.NET.pdb

@@ -16,21 +16,35 @@ public partial class SideBarUpdate : System.Web.UI.Page
     {
         if (!this.IsPostBack)
         {
-            
-            using (TextReader tr = new StreamReader(Server.MapPath("../SideBar/SideBar.htm")))
+            Dictionary<int, string> pageList = new Dictionary<int, string>();
+            pageList.Add(0,"ContactMain.htm");
+            pageList.Add(1,"ContactSideBar.htm");
+            pageList.Add(2,"SideBar.htm");
+
+            foreach (var item in pageList)
             {
-                string htmlCode = tr.ReadToEnd();
-                Txt_SourceCode.Text = htmlCode;
+                Dl_CustomizePage.Items.Add(new ListItem(item.Value));
             }
+
+            ReadPageContent(Dl_CustomizePage.SelectedValue);
         }
 
 
+    }
+
+    private void ReadPageContent(string pageName)
+    {
+        using (TextReader tr = new StreamReader(Server.MapPath(string.Format("../SideBar/{0}",pageName))))
+        {
+            string htmlCode = tr.ReadToEnd();
+            Txt_SourceCode.Text = htmlCode;
+        }
     }
     protected void Btn_Update_Click(object sender, EventArgs e)
     {
         try
         {
-            using (StreamWriter sw = new StreamWriter(Server.MapPath("../SideBar/SideBar.htm"), false, System.Text.Encoding.Unicode))
+            using (StreamWriter sw = new StreamWriter(Server.MapPath(string.Format("../SideBar/{0}",Dl_CustomizePage.SelectedValue)), false, System.Text.Encoding.Unicode))
             {
                 sw.Write(Txt_SourceCode.Text);
             }
@@ -53,5 +67,10 @@ public partial class SideBarUpdate : System.Web.UI.Page
         }
 
         
+    }
+
+    protected void Dl_CustomizePage_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        ReadPageContent(Dl_CustomizePage.SelectedValue);
     }
 }
