@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <setParameter name="IIS Web Application Name" value="Default Web Site/NaturalGarden_deploy" />
-  <setParameter name="NaturalGardenConnectionString-Web.config Connection String" value="Data Source=.\SQLSERVER;Initial Catalog=NaturalGarden;Integrated Security=SSPI;" />
-</parameters>

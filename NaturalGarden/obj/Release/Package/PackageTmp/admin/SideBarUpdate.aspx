@@ -11,6 +11,14 @@
     <div>
     <table>
         <tr>
+            <td>Choose page:</td>
+            <td>
+                <asp:DropDownList ID="Dl_CustomizePage" runat="server" AutoPostBack="true" 
+                    onselectedindexchanged="Dl_CustomizePage_SelectedIndexChanged"></asp:DropDownList>
+                
+            </td>
+        </tr>
+        <tr>
             <td>Html Code:</td>
             <td>
                 <asp:TextBox ID="Txt_SourceCode" runat="server" TextMode="MultiLine" Width="500px" Height="400px"></asp:TextBox>

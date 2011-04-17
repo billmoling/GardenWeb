@@ -1,6 +1,8 @@
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\NaturalGarden.dll
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\NaturalGarden.pdb
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\CKEditor.NET.dll
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Jayrock.dll
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Jayrock.Json.dll
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
@@ -8,8 +10,9 @@ E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Micro
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Microsoft.Practices.ServiceLocation.dll
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Microsoft.Practices.Unity.dll
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Microsoft.Practices.Unity.Interception.dll
-E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\WebEditor.dll
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\CKEditor.NET.pdb
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Jayrock.pdb
+E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Jayrock.Json.pdb
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Microsoft.Practices.EnterpriseLibrary.Common.pdb
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Microsoft.Practices.EnterpriseLibrary.Data.pdb

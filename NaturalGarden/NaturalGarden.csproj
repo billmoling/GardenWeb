@@ -42,6 +42,12 @@
     <Reference Include="CKEditor.NET">
       <HintPath>..\WebSite\bin\CKEditor.NET.dll</HintPath>
     </Reference>
+    <Reference Include="Jayrock">
+      <HintPath>..\packages\jayrock.0.9.12915\lib\net4\Jayrock.dll</HintPath>
+    </Reference>
+    <Reference Include="Jayrock.Json">
+      <HintPath>..\packages\jayrock-json.0.9.12915\lib\net4\Jayrock.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -973,6 +979,11 @@
     <Compile Include="Old_App_Code\Migrated\admin\Welcome_aspx_cs_Welcome.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Service\ProductInfo.cs" />
+    <Compile Include="Service\ProductService.ashx.cs">
+      <DependentUpon>ProductService.ashx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Test.aspx.cs">
       <DependentUpon>Test.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1006,6 +1017,7 @@
     <Content Include="HomePage.master" />
     <None Include="images\nav_bar.jpg_" />
     <Content Include="ProductPage.master" />
+    <Content Include="packages.config" />
     <None Include="Properties\AssemblyInfo.cs.orig" />
     <Content Include="SideBar\ContactMain.htm" />
     <Content Include="SideBar\ContactSideBar.htm" />
@@ -1021,6 +1033,7 @@
     <Content Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </Content>
+    <Content Include="Service\ProductService.ashx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
