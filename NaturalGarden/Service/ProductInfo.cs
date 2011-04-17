@@ -7,6 +7,7 @@ using Microsoft.Practices.EnterpriseLibrary.Logging;
 using Microsoft.Practices.EnterpriseLibrary.Common.Configuration;
 using System.IO;
 using System.Web;
+using System.Text.RegularExpressions;
 
 namespace NaturalGarden.Service
 {
@@ -109,12 +110,20 @@ namespace NaturalGarden.Service
 
             DataRow row = ds.Tables[0].Rows[0];
             _name = row["productName"].ToString().Trim();
-            _mainInfo = row["maininfo"].ToString().Trim();
+            _mainInfo =NoHTML(row["maininfo"].ToString().Trim());
             _picURL = HttpContext.Current.Request.Url.Host.ToString().TrimEnd('/') +"/productPic/" + row["pic"].ToString().Trim();
             _pdfURL =string.IsNullOrEmpty(row["pdf"].ToString().Trim())==true? "" : HttpContext.Current.Request.Url.Host.ToString().TrimEnd('/')+ "/productPdf/" + row["pdf"].ToString().Trim();
             _price = row["price"].ToString().Trim() == "0" ? "" : row["price"].ToString().Trim();
             _isNew = row["isNew"].ToString().Trim();
             _isPromotion = row["isPromotion"].ToString().Trim();
+        }
+
+        public static string NoHTML(string Htmlstring)
+        {
+            Htmlstring = Regex.Replace(Htmlstring, @"&(nbsp|#160);", "   ", RegexOptions.IgnoreCase);
+            Htmlstring.Replace("\r\n", "");
+            Htmlstring.Replace("<br />", "");
+            return Htmlstring;
         }
     }
 }
