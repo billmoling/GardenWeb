@@ -134,6 +134,17 @@ namespace NewsProject.admin
 					{
 						Session.Add("propic",ds.Tables[0].Rows[0]["pic"].ToString());
 					}
+
+                    if (Session["propdf"] != null)
+                    {
+                        Session["propdf"] = ds.Tables[0].Rows[0]["pdf"].ToString();
+                    }
+                    else
+                    {
+                        Session.Add("propdf", ds.Tables[0].Rows[0]["pdf"].ToString());
+                    }
+
+
 					//((editor)this.FindControl("WebEditor")).setValue(ds.Tables[0].Rows[0]["maininfo"].ToString());
                     
                     this.WebEditor.Text = ds.Tables[0].Rows[0]["maininfo"].ToString();
@@ -171,6 +182,7 @@ namespace NewsProject.admin
 			string name=txtProductName.Value.Trim();
 			string type=listType.SelectedValue;
 			string pic=Session["propic"].ToString();
+            string pdf = Session["propdf"].ToString();
 			string price=txtPrice.Value.Trim();
 			string leftcount=txtLeftCount.Value.Trim();
             string itemCode = txtCodeItem.Value.Trim();
@@ -199,7 +211,7 @@ namespace NewsProject.admin
 			{
 				Response.Write("<script>alert('Please input product description!');</script>");return ;
 			}
-            string sql = "update [productinfo] set [ptypeid]=" + type + ",[pinId]=" + itemCode + ",[productName]='" + name + "',[mainInfo]='" + minfo + "',[pic]='" + pic + "',[leftcount]=" + leftcount + ",[price]=" + price + ",[isNew]=" + isNew + ",[isPromotion]=" + isPromotion + ",[isPrivate]=" + isPrivate + " where productid=" + Request.QueryString["pId"].Trim();
+            string sql = "update [productinfo] set [ptypeid]=" + type + ",[pinId]=" + itemCode + ",[productName]='" + name + "',[pdf]='" + pdf + "',[mainInfo]='" + minfo + "',[pic]='" + pic + "',[leftcount]=" + leftcount + ",[price]='" + price + "',[isNew]=" + isNew + ",[isPromotion]=" + isPromotion + ",[isPrivate]=" + isPrivate + " where productid=" + Request.QueryString["pId"].Trim();
 			if(df.DoEdit(sql)>0)
 			{
 				Response.Write("<script>alert('Edited product successfully!');location.href='adminProducts.aspx';</script>");return ;

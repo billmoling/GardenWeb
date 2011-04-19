@@ -78,7 +78,15 @@
                                 </tr>
                                 <tr>
                                     <td align="left">
-                                        <asp:Label ID="Label3" runat="server" Text="Price:" CssClass="lb_title"></asp:Label>
+                                        <asp:Label ID="Label_MOQTitle" runat="server" Text="MOQ:" CssClass="lb_title"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:Label ID="Label_MOQContent" runat="server" Text="MOQ" ForeColor="#000099" CssClass="lb_content"></asp:Label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left">
+                                        <asp:Label ID="Label3" runat="server" Text="Port:" CssClass="lb_title"></asp:Label>
                                     </td>
                                     <td>
                                         <asp:Label ID="Label_price" runat="server" Text="Price" ForeColor="Red" CssClass="lb_content"></asp:Label>

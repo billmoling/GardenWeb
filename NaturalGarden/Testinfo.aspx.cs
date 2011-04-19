@@ -35,9 +35,35 @@ public partial class Testinfo : System.Web.UI.Page
                 Image1.ImageUrl = "productPic/" + row["pic"].ToString().Trim();
                 Label_id.Text = row["pinId"].ToString().Trim();
                 Label_name.Text = row["productName"].ToString().Trim();
-                Label_price.Text = "$" + row["price"].ToString().Trim();
+                if (String.IsNullOrEmpty(row["price"].ToString().Trim()) || row["price"].ToString().Trim().Equals("0"))
+                {
+                    Label3.Visible = false;
+                    Label_price.Visible = false;
+                }
+                else
+                {
+                    Label_price.Text = row["price"].ToString().Trim();
+                }
+
+
+                if (String.IsNullOrEmpty(row["leftcount"].ToString().Trim()) || row["leftcount"].ToString().Trim().Equals("0"))
+                {
+                    Label_MOQTitle.Visible = false;
+                    Label_MOQContent.Visible = false;
+                }
+                else
+                {
+                    Label_MOQContent.Text = row["leftcount"].ToString().Trim();
+                }
+
+
                 infoStr = row["maininfo"].ToString().Trim();
-                if (row["pdf"].ToString().Trim() != "")
+                if (String.IsNullOrEmpty(row["pdf"].ToString().Trim()))
+                {
+                    Label5.Visible = false;
+                    a_pdf.Visible = false;
+                }
+                else
                 {
                     a_pdf.NavigateUrl = "productPdf/" + row["pdf"].ToString().Trim();
                 }

@@ -115,14 +115,14 @@ namespace NewsProject.admin
                     Response.Write("<script>alert('Please upload product image!');</script>"); return;
                 }
 
-                if (Session["propdf"] == null)
-                {
-                    Response.Write("<script>alert('Please upload product PDF file!');</script>"); return;
-                }
+                //if (Session["propdf"] == null)
+                //{
+                //    Response.Write("<script>alert('Please upload product PDF file!');</script>"); return;
+                //}
                 string name = txtProductName.Value.Trim();
                 string type = listType.SelectedValue;
                 string pic = Session["propic"].ToString();
-                string pdf = Session["propdf"].ToString();
+                string pdf = Session["propdf"] == null ? "" : Session["propdf"].ToString();
                 string price = "0";
                 string leftcount = "0";
                 string codeItem = String.Empty;

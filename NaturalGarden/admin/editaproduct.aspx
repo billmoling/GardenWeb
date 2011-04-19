@@ -69,7 +69,7 @@
                 </tr>
                 <tr>
                     <td width="80" height="2" align="left">
-                        Inventory:
+                        MOQ:
                     </td>
                     <td height="2">
                         <input type="text" size="30" maxlength="100" id="txtLeftCount" runat="server" name="Text1"
@@ -87,11 +87,11 @@
                 </tr>
                 <tr>
                     <td width="80" height="2" align="left">
-                        Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
+                        Port&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
                     </td>
                     <td height="2">
                         <input type="text" size="30" maxlength="100" id="txtPrice" runat="server" name="Text2"
-                            onkeyup="checkNan(this)"/>
+                              />
                     </td>
                 </tr>
                 <tr>

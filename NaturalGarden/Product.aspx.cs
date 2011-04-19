@@ -42,8 +42,21 @@ public partial class Product : System.Web.UI.Page
                 }
                 else
                 {
-                    Label_price.Text = "$" + row["price"].ToString().Trim();
+                    Label_price.Text = row["price"].ToString().Trim();
                 }
+
+
+                if (String.IsNullOrEmpty(row["leftcount"].ToString().Trim()) || row["leftcount"].ToString().Trim().Equals("0"))
+                {
+                    Label_MOQTitle.Visible = false;
+                    Label_MOQContent.Visible = false;
+                }
+                else
+                {
+                    Label_MOQContent.Text = row["leftcount"].ToString().Trim();
+                }
+
+
                 infoStr = row["maininfo"].ToString().Trim();
                 if (String.IsNullOrEmpty(row["pdf"].ToString().Trim()))
                 {

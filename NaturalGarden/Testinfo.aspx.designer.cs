@@ -57,6 +57,24 @@ public partial class Testinfo {
     protected global::System.Web.UI.WebControls.Label Label_id;
     
     /// <summary>
+    /// Label_MOQTitle control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Label Label_MOQTitle;
+    
+    /// <summary>
+    /// Label_MOQContent control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Label Label_MOQContent;
+    
+    /// <summary>
     /// Label3 control.
     /// </summary>
     /// <remarks>
