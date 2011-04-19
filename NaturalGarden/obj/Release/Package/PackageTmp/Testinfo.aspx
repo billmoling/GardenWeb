@@ -15,7 +15,7 @@ MasterPageFile="ProductPage.master" Codebehind="Testinfo.aspx.cs" %>
                             <img alt="" src="images/book.gif" />
                         </td>
                         <td>
-                            <span>Product List</span>
+                            <span>Product Category</span>
                         </td>
                     </tr>
                 </table>
@@ -55,50 +55,58 @@ MasterPageFile="ProductPage.master" Codebehind="Testinfo.aspx.cs" %>
                 <table>
                     <tr>
                         <td>
-                            <asp:Image ID="Image1" runat="server" Height="230px" ImageUrl="~/productPic/20110223115322127001.jpg" Width="259px" />
+                            <asp:Image ID="Image1" runat="server" Height="210px" ImageUrl="~/productPic/20110223115322127001.jpg" Width="259px" />
                         </td>
+                        <td width="20px"></td>
                         <td>
                             <table  class="t-left">
                                 <tr>
                                     <td align="left">
-                                        <asp:Label ID="Label1" runat="server" Text="Name:"></asp:Label>
+                                        <asp:Label ID="Label1" runat="server" Text="Name:" CssClass="lb_title"></asp:Label>
                                     </td>
                                     <td>
-                                        <asp:Label ID="Label_name" runat="server" Text="Name" ForeColor="Black"></asp:Label>
+                                        <asp:Label ID="Label_name" runat="server" Text="Name" ForeColor="Black" CssClass="lb_content"></asp:Label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td align="left">
-                                        <asp:Label ID="Label2" runat="server" Text="ID:"></asp:Label>
+                                        <asp:Label ID="Label2" runat="server" Text="Item Code:" CssClass="lb_title"></asp:Label>
                                     </td>
                                     <td>
-                                        <asp:Label ID="Label_id" runat="server" Text="ID" ForeColor="#000099"></asp:Label>
+                                        <asp:Label ID="Label_id" runat="server" Text="Item Code" ForeColor="#000099" CssClass="lb_content"></asp:Label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td align="left">
-                                        <asp:Label ID="Label3" runat="server" Text="Price:"></asp:Label>
+                                        <asp:Label ID="Label_MOQTitle" runat="server" Text="MOQ:" CssClass="lb_title"></asp:Label>
                                     </td>
                                     <td>
-                                        <asp:Label ID="Label_price" runat="server" Text="Price" ForeColor="Red"></asp:Label>
+                                        <asp:Label ID="Label_MOQContent" runat="server" Text="MOQ" ForeColor="#000099" CssClass="lb_content"></asp:Label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td align="left">
-                                        <asp:Label ID="Label5" runat="server" Text="PDF:"></asp:Label>
+                                        <asp:Label ID="Label3" runat="server" Text="Port:" CssClass="lb_title"></asp:Label>
                                     </td>
                                     <td>
-                                        <asp:HyperLink ID="a_pdf" runat="server">Download</asp:HyperLink>
+                                        <asp:Label ID="Label_price" runat="server" Text="Price" ForeColor="Red" CssClass="lb_content"></asp:Label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left">
+                                        <asp:Label ID="Label5" runat="server" Text="PDF:" CssClass="lb_title"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:HyperLink ID="a_pdf" runat="server" CssClass="lb_content">Download</asp:HyperLink>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    <tr>
                         <table class="t-left" cellspacing="10px">
                             <tr>
                                 <td align="left" >
-                                    <asp:Label ID="Label6" runat="server" Text="Product Details:"></asp:Label>
+                                    <asp:Label ID="Label6" runat="server" Text="Product Details:" CssClass="lb_title"></asp:Label>
                                 </td>
                             </tr>
                             <tr>

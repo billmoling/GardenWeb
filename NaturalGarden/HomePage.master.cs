@@ -8,7 +8,7 @@ using System.Data;
 
 public partial class HomePage : System.Web.UI.MasterPage
 {
-    private string toolTip = String.Format("Customize Search by item code, product name, category etc.");
+    private string toolTip = String.Format("Custom Search by item code, product name, category etc.");
     protected void Page_Load(object sender, EventArgs e)
     {
 
