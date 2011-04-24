@@ -1,6 +1,5 @@
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\NaturalGarden.dll
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\NaturalGarden.pdb
-E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\CKEditor.NET.dll
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Jayrock.dll
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Jayrock.Json.dll
 E:\Develop\NaturalGardenWeb_20110331_v2\NaturalGardenWeb\NaturalGarden\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll

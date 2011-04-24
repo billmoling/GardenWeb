@@ -165,11 +165,19 @@ namespace NewsProject.admin
                 sql = "insert into [productinfo] ([ptypeid],[productName],[mainInfo],[pic],[leftCount],[price],[isPromotion],[isNew],[pdf],[isPrivate],[pinId]) values (" + type + ",'" + name + "','" + minfo + "','" + pic + "'," + leftcount + ",'" + price + "','" + isPromotion + "','" + isNew + "','" + pdf + "','" + isPrivate + "','" + codeItem + "')";
                 if (df.DoEdit(sql) > 0)
                 {
+                    if (Session["propdf"] != null)
+                    {
+                        Session["propdf"] = String.Empty;
+                    }
                     Response.Write("<script>alert('Add product successfully!');location.href='adminProducts.aspx';</script>"); return;
                 }
             }
             catch (Exception ex)
             {
+                if (Session["propdf"] != null)
+                {
+                    Session["propdf"] = String.Empty;
+                }
                 Response.Write(ex.Message);
             }
         }
