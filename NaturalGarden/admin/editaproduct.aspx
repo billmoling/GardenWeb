@@ -150,6 +150,8 @@
                             Height="20" OnClick="btnSubmit_Click"></asp:Button>
                         <input type="reset" name="Submit" value="Reset" class="button" style="width: 50px;
                             height: 20px">
+                        <asp:Button ID="btnClearPDF" runat="server" Text="ClearPDF" CssClass="button" 
+                            Width="70px" height="20px" onclick="btnClearPDF_Click" />
                     </td>
                 </tr>
             </table>

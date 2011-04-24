@@ -35,7 +35,9 @@ namespace NewsProject.admin
             //{
             //    this.ifr_uploadPic.Visible = true;
             //}
-
+            
+            //Session["propic"]=null;
+            //Session["propdf"]=null; 
 
             WebEditor.config.language = "en";
             WebEditor.config.enterMode = EnterMode.BR;

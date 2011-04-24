@@ -182,7 +182,7 @@ namespace NewsProject.admin
 			string name=txtProductName.Value.Trim();
 			string type=listType.SelectedValue;
 			string pic=Session["propic"].ToString();
-            string pdf = Session["propdf"].ToString();
+            string pdf = Session["propdf"] == null ? "" : Session["propdf"].ToString();
 			string price=txtPrice.Value.Trim();
 			string leftcount=txtLeftCount.Value.Trim();
             string itemCode = txtCodeItem.Value.Trim();
@@ -217,5 +217,11 @@ namespace NewsProject.admin
 				Response.Write("<script>alert('Edited product successfully!');location.href='adminProducts.aspx';</script>");return ;
 			}		
 		}
+
+        protected void btnClearPDF_Click(object sender, EventArgs e)
+        {
+            Session["propdf"] = null;
+            Response.Write("<script>alert('Clear PDF successfully!');</script>");
+        }
 }
 }
