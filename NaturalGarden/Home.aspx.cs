@@ -30,7 +30,7 @@ public partial class Home : System.Web.UI.Page
             {
                 str += "<td><a href='Product.aspx?id=" + row["productId"].ToString().Trim() + "'>";
                 str += "<table><tr><td>";
-                str += "<img alt='' src='productPic/" + row["pic"].ToString().Trim() + "' />";
+                str += "<img width='164px' height='161px'  alt='' src='productPic/" + row["pic"].ToString().Trim() + "' />";
                 str += "</td></tr><tr><td align='center'>";
                 str += "<div>" + row["productName"].ToString().Trim() + "</div>";
                 str += "</td></tr></table>";
